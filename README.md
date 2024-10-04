@@ -24,7 +24,7 @@ priint("String Concatenation is done with the + sign")
 print(("New lines can be created with a \ and the letter n")
 ```
 ### Coding_Exercise-3
- - Debug the following program to Print the Output without any Errors:
+ - `Swap` the values in the variables below without manually changing their values (Hint: Use A Third Variable `temp` As A Temporary Carrier Variable For The Process):
 ```
 glass1 = "milk"
 glass2 = "juice"
