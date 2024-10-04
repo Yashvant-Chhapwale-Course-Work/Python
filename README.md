@@ -8,27 +8,7 @@ A Record Of Assignments Under Python Course Work From Udemy.
  <h1>Table of Contents</h1>
 </div>
 
-<div style="display: flex; justify-content: space-between;">
-
-  <div>
-   
-    Day 1 :: Introduction to Python with `print()` Function  
-    **Installation**  
-    **Usage**  
-    **Contributing**  
-    **License**  
-  </div>
-
-  <div>
-   
-    [CHECK CONTENT](#day-1)
-    [Installation](#installation)  
-    [Usage](#usage)  
-    [Contributing](#contributing)  
-    [License](#license)  
-  </div>
-
-</div>
+**Introduction** - [Introduction](#introduction)
 
 
 
