@@ -8,7 +8,7 @@ A Record Of Assignments Under Python Course Work From Udemy.
  <h1>Index</h1>
 </div>
 
-  1. Day 1 >> [CHECK CONTENT](#day-1)
+  1. Day 1 ------------ Introduction to Python with `print()` Function >> [CHECK CONTENT](#day-1)
   2. Day 2 >> [CHECK CONTENT](#day-2)
   3. Day 3 >> [CHECK CONTENT](#day-3)
   4. Day 4 >> [CHECK CONTENT](#day-4)
