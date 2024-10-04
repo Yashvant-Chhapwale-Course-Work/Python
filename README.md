@@ -16,8 +16,8 @@ A Record Of Assignments Under Python Course Work From Udemy.
 | 2. **Day 2 : : An Overview On Data Types, Type Casting in Python with<br> `int()`, `float()` & `str()` Function, Using `input()` Function <br>   To Take User Inputs** | >> [CHECK CONTENT](#day-2)                 |     
 | 3. **Day 3 : : `if-elif-else` Statements                                                                                                                               | >> [CHECK CONTENT](#day-3)                 |
 | 4. **Day 4 : : `Loops` with Python                                                                                                                                     | >> [CHECK CONTENT](#day-4)                 |
-| 5. **Day 5 : : Introduction to Python with `print()` Function**<br>                                                                                                    | >> [CHECK CONTENT](#day-5)                 |
-| 6. **Day 6 : : Introduction to Python with `print()` Function**<br>                                                                                                    | >> [CHECK CONTENT](#day-6)                 |
+| 5. **Day 5 : : Fun with `range()` Function**                                                                                                                           | >> [CHECK CONTENT](#day-5)                 |
+| 6. **Day 6 : : Introduction to Python with `print()` Function**                                                                                                        | >> [CHECK CONTENT](#day-6)                 |
 </div>
  
 ---
@@ -280,8 +280,10 @@ glass2 = "juice"
 ---
 
 ## Day 5
+### Coding_Exercise-5
+ - Write A Program to create a `FizzBuzz-Game` which prints `Fizz` if number is divisible by 3, `Bizz` if number is divisible by 5 & `FizzBuzz` if number is divisible by both 3 and 5.
 ### Day-5_Project
- - Write A Program to create a `Rock-Paper-Scissors-Game` which also keeps track of Player's `Winning-Streak` & `Losing-Streak`.
+ - Write A Program to create a `Password-Generator` which takes `number-of-letter`, `number-of-digits` & `number-of-symbols` to be included in password, as input from User & genrates a Randomized String as Password, Accordingly. 
 
 <div align = "center">
  _______________________________________________
@@ -291,10 +293,21 @@ glass2 = "juice"
  <h2>Important Concepts</h2>
 </div>
 
- - In Python, a `List` is a Versatile and Mutable (Changeable) Data Structure that can hold an Ordered Collection of Items. You can Create A List by Enclosing Elements in Square Brackets  `[]`, Separated by Commas.
+ - The `range()` function in Python is a built-in function that generates a sequence of numbers.<br>
+   It generally takes 3 parameters:
+    - `start` : Defines starting value for the sequence. (included in sequence)
+    -  `stop` : Defines endpoint for the sequence. (excluded from sequence)
+    -  `step` : Defines the amount to increment the value by in the sequence.
    ```
-   Syntax:
-   <list_name> = [element_1, element_2, . . ., element_n]
+   for i in range(10, 0, -2):
+    print(i)
+
+   Output:
+   10
+   8
+   6
+   4
+   2
    ```
  - In Python, the `random` mModule provides a Suite Of Functions to generate Random Numbers and perform Random Operations.
    - Before using the Functions in the `random` Module, you need to `import` it:
