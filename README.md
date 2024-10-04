@@ -278,3 +278,92 @@ glass2 = "juice"
        ```
    
 ---
+
+## Day 5
+### Day-5_Project
+ - Write A Program to create a `Rock-Paper-Scissors-Game` which also keeps track of Player's `Winning-Streak` & `Losing-Streak`.
+
+<div align = "center">
+ _______________________________________________
+</div>
+
+<div align="center">
+ <h2>Important Concepts</h2>
+</div>
+
+ - In Python, a `List` is a Versatile and Mutable (Changeable) Data Structure that can hold an Ordered Collection of Items. You can Create A List by Enclosing Elements in Square Brackets  `[]`, Separated by Commas.
+   ```
+   Syntax:
+   <list_name> = [element_1, element_2, . . ., element_n]
+   ```
+ - In Python, the `random` mModule provides a Suite Of Functions to generate Random Numbers and perform Random Operations.
+   - Before using the Functions in the `random` Module, you need to `import` it:
+     ```
+     import random  #The 'import' statements must always be declared at the start of a file before any code block.
+     ```
+   - `random.random()`: Returns a random float between 0.0 to 1.0.
+     ```
+     random_float = random.random()
+     print(random_float)  # Example output: 0.37444887175646646
+     ```
+   - `random.uniform(a, b)`: Returns a random float between a and b.
+     ```
+     random_float = random.uniform(1, 10)
+     print(random_float)  # Example output: 5.249982325624578
+     ```
+   - `random.randint(a, b)`: Returns a random integer between a and b, inclusive.
+     ```
+     random_int = random.randint(1, 100)
+     print(random_int)  # Example output: 42
+     ```
+   - `random.choice(sequence`): Returns a randomly selected element from a non-empty sequence (like a list or a string).
+     ```
+     colors = ["red", "green", "blue", "yellow"]
+     random_color = random.choice(colors)
+     print(random_color)  # Example output: "blue"
+     ```
+   - `random.shuffle(x)`: Shuffles the sequence in place.
+     ```
+     deck = [1, 2, 3, 4, 5]
+     random.shuffle(deck)
+     print(deck)  # Example output: [3, 1, 5, 2, 4]
+     ```   
+ - In Python, `Loops` are used to execute a block of code repeatedly.
+    - `for` Loop: A 'for' loop is used to iterate over a sequence (like a list, tuple, string, or range).
+      ```
+      Syntax:
+      for variable in sequence:
+         # Code to execute for each item
+      ```
+    - `while` Loop: A 'while' loop continues to execute as long as a specified condition is True.
+      ```
+      Syntax:
+      while condition:
+         # Code to execute as long as condition is True
+      ```
+    - `do-while` Loop: In Python, there isn't a built-in 'do-while' loop, but you can simulate a 'do-while' loop using a 'while' loop by ensuring that the loop's body is executed at least once. 
+      ```
+      Syntax:
+      while True:     #This ensures that code is executed at least once before encountering the 'break' condition.
+         # Code to execute
+         # ...
+
+         if not condition:
+            break  # Exit the loop if the condition is False
+      ```
+    - `continue` Statement: The 'continue' statement skips the current iteration and moves to the next one.
+      ```
+      for i in range(5):
+          if i == 2:
+             continue  # Skip when i is 2
+           print(i)
+      ```
+     - `break` Statement: The break statement is used to exit a loop prematurely.
+       ```
+       for i in range(10):
+          if i == 5:
+             break  # Exit the loop when i is 5
+          print(i)
+       ```
+   
+---
