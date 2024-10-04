@@ -14,3 +14,12 @@ A Record Of Assignments Under Python Course Work From Udemy.
    4. Leave to rise for 2 hours.
    5. Bake at 200 degrees C for 30 minutes.
 ```
+### Coding_Exercise-2
+ - Debug the following program to Print the Output without any Errors:
+```
+print(Notes from Day 1")
+  print("The print statement is used to output strings")                 
+print("Strings are strings of characters"                                  
+priint("String Concatenation is done with the + sign")                     
+print(("New lines can be created with a \ and the letter n")
+```
