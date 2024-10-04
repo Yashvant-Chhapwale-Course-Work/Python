@@ -7,6 +7,7 @@ A Record Of Assignments Under Python Course Work From Udemy.
 <div align="center">
  <h1>Index</h1>
 </div>
+
 [Link Text](#day-1)
 
  
