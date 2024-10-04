@@ -80,8 +80,9 @@ glass2 = "juice"
 </div>
 
 ## Important Concepts
- - The `print()` Function in Python is a Built-In Function used to Output Data to the Console or Standard Output Device.
+ - The `input()` Function in Python is used to take Input from the User. It reads a line from Standard Input (Typically From The Keyboard) and Returns it as a String.
  - The `" "` or `' '` are used for indicating the `String` Data Type.
  - The `+` Operator can be used for `Concatenation` of two or more Strings.
  - In Python, `Variables` are used to Store Data Values. They Act as Containers for Information that you can Use and Manipulate throughout your Program.
 
+---
