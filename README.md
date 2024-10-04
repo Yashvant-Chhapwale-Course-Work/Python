@@ -154,38 +154,44 @@ glass2 = "juice"
    else:
     # Code block if all previous conditions are false
    ```
- - **Primitive Data Types in Python:**
-   - Number Type:
-     - `int`: Represents Integer Values, which can be Positive, Negative, or Zero.
-     - `float`: Represents floating-point numbers, which are numbers that have a decimal point.
-   - Sequence Type:
-     - `str`: Represents strings, which are sequences of characters.
-   - Boolean Type:
-     - `bool`: Represents Boolean values, which can be either True or False.
-   - None Type:
-     - `none type`: Represents the absence of a value.  
- - **Type Casting:**
-    - In Python, `Type Casting` (or `Type Conversion`) is the Process of Converting One Data Type into Another.
-    - `int()`: You can convert a Float or a String to an Integer using the 'int()' Function.
-      ```
-      num_str = "42"
-      num_int_from_str = int(num_str) 
-      ```
-    - `float()`: You can convert a Float or a String to an Integer using the 'int()' Function.
-      ```
-      num_int = 5
-      num_float = float(num_int)
-      ``` 
-    - `str()`: You can convert any Primitive Data Type to a String using the 'str()' Function.
-      ```
-      is_active = True
-      str_from_bool = str(is_active)
-      ```
-    - `bool()`: You can convert any Primitive Data Type to a Boolean using the 'bool()' Function.
-      ```
-      none_value = None
-      bool_from_none = bool(none_value)  # Result: False
-      ```
-    - The NoneType in Python represents the absence of a value. You can't "cast" other types to NoneType.
-
+ - In Python, `"\n"` is a Special Escape Sequence that represents a Newline Character.
+ - In Python, `"\"` can be used to Ignore any `'` or `"` within a String.
+ - In Python, Triple Quotes (`'''` or `"""`) are used to create Multiline Strings.
+ - `capitalize()` : Capitalizes the first character of the string and makes all other characters lowercase.
+   ```
+   text = "hello world!"
+   capitalized_text = text.capitalize()
+   print(capitalized_text)  # Output: "Hello world!"
+   ``` 
+ - `capitalize()` : Capitalizes the first character of the string and makes all other characters lowercase.
+   ```
+   text = "hello world!"
+   capitalized_text = text.capitalize()
+   print(capitalized_text)  # Output: "Hello world!"
+   ```
+ - `capitalize()` : Capitalizes the first character of the string and makes all other characters lowercase.
+   ```
+   text = "hello world!"
+   capitalized_text = text.capitalize()
+   print(capitalized_text)  # Output: "Hello world!"
+   ```
+- `upper()` : Converts all characters in the string to uppercase.
+   ```
+   text = "hello world!"
+   uppercase_text = text.upper()
+   print(uppercase_text)  # Output: "HELLO WORLD!"
+   ```
+- `lower()` : Converts all characters in the string to lowercase.
+  ```
+   text = "HELLO WORLD!"
+   lowercase_text = text.lower()
+   print(lowercase_text)  # Output: "hello world!"
+   ```
+- `title()` : Capitalizes the first letter of each word in the string.
+   ```
+   text = "hello world!"
+   title_text = text.title()
+   print(title_text)  # Output: "Hello World!"
+   ```
+   
 ---
