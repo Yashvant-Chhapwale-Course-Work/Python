@@ -51,9 +51,9 @@ continue_game = True
 
 while continue_game: #If 'continue_game = True' >> Proceeds Inside Loop ,Else If 'continue_game = False' >> Exits From Loop.
     
-    #Player's Move:
+    # Player's Move:
     valid_move = False  
-    while not valid_move: #Now 'valid_move = False', Therefore 'not valid_move = True', so 'while True' >> Proceeds Inside Loop, After Which If 'valid_move == True', 'not valid_move = False', so 'while False' >> Exits From Loop.
+    while not valid_move: #Now 'valid_move = False', Therefore 'not valid_move == True', so 'while True' >> Proceeds Inside Loop, After Which If 'valid_move = True', 'not valid_move == False', so 'while False' >> Exits From Loop.
         print(" ")
         print('Make Your Move! "Rock", "Paper" Or "Scissors"!')
         player_input = input("Enter 'R' If You Choose \"Rock\", 'P' If You Choose \"Paper\" And 'S' If You Choose \"Scissors\": ")
@@ -101,7 +101,7 @@ while continue_game: #If 'continue_game = True' >> Proceeds Inside Loop ,Else If
     # Continue_Game? Reinitializing 'continue_game':
     print(" ")
     continue_input = input('Play Another Round? "Yes" or "No" \n')
-    while True :   # The Loop Is Set To Run Indefinitely Until A 'break' Statement Is Encountered.
+    while True :   # The Loop Is Set To Run Indefinitely Until A 'break' Statement Is Encountered. This Also Simultes A Do-While Loop In Python.
         if continue_input.capitalize() in ["Yes", "Y"]:
             continue_game = True
             break
@@ -112,6 +112,7 @@ while continue_game: #If 'continue_game = True' >> Proceeds Inside Loop ,Else If
             print("Invalid input :/ Please enter 'Yes' or 'No'.")
             print(" ")
             continue_input = input('Play Another Round? "Yes" or "No" \n')
+
 
 #The 'in' Keyword Is Used To Check For Membership Or Inclusion Within Sequences.
 
