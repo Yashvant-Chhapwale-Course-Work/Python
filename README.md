@@ -8,7 +8,21 @@ A Record Of Assignments Under Python Course Work From Udemy.
  <h1>Index</h1>
 </div>
 
-1. Day 1 :: Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-1) <br>
+<div style="display:flex">
+ <div>
+  
+  1. Day 1 :: Introduction to Python with `print()` Function
+  2. 
+ </div>
+ 
+ <div align="right">
+  
+  >> [CHECK CONTENT](#day-1)
+ </div>
+</div>
+
+
+   <br>
 2. Day 2 :: An Overview On Data Types, Type Casting in Python with `int()`, `float()` & `str()` Function, Using `input()` Function To Take User Inputs  >>  [CHECK CONTENT](#day-2) <br>
 3. Day 3 :: Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-3) <br>
 4. Day 4 :: Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-4) <br>
