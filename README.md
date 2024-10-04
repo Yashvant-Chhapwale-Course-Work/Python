@@ -12,7 +12,7 @@ A Record Of Assignments Under Python Course Work From Udemy.
  
 ---
 
-## Day 1
+## Day-1
 ### Coding_Exercise-1
  - Using `print()` Statement write a `Python Program` which gives the following Output: 
 ```
