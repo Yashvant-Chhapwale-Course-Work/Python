@@ -4,6 +4,12 @@ A Record Of Assignments Under Python Course Work From Udemy.
 
 ---
 
+<div align="center">
+ <h3>Index</h3>
+</div>
+
+---
+
 ## Day 1
 ### Coding_Exercise-1
  - Using `print()` Statement write a `Python Program` which gives the following Output: 
