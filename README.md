@@ -39,4 +39,5 @@ glass2 = "juice"
 ## Important Concepts
  - The `print()` Function in Python is a Built-In Function used to Output Data to the Console or Standard Output Device.
  - The `" "` or `' '` are used for indicating the `String` Data Type.
- 
+ - The `+` Operator can be used for `Concatenation` of two or more Strings.
+ - 
