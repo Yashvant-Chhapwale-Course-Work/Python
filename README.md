@@ -8,14 +8,14 @@ A Record Of Assignments Under Python Course Work From Udemy.
  <h1>Index</h1>
 </div>
 
-<div style="display:flex, flex-direction: row">
- <div>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+ <div style="flex: 1; padding: 10px;">
   
   1. Day 1 :: Introduction to Python with `print()` Function
   2. 
  </div>
  
- <div align="right">
+ <div style="flex: 1; padding: 10px;">
   
   >> [CHECK CONTENT](#day-1)
  </div>
