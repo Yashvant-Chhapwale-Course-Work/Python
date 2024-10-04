@@ -30,7 +30,7 @@ if cross_road.capitalize() == 'Left' or cross_road.capitalize() == 'L':         
     print("You Chose The Left Path And Continued Onward With Your Quest!\n")
     print("You've Arrived At The Mushy Lake! There Is A Hidden Island At The Middle Of The Lake.")
     cross_lake = str(input('How Do You Wish To Proceed? "Wait For The Ferry" or "Swim To The Island". Choose Between "Wait" or "Swim" \n'))
-    if cross_lake.capitalize() == 'Wait' or cross_lake.capitalize() == 'Wait For The Ferry' or cross_lake.capitalize() == 'W':
+    if cross_lake.capitalize() == 'Wait' or cross_lake.capitalize() == 'Wait for the ferry' or cross_lake.capitalize() == 'W':
         print(" ")
         print("You Reached The Island Safely! \n")
         print("There Is A House On The Island With 3 Doors: 'Red', 'Yellow' & 'Blue'.")
@@ -48,10 +48,10 @@ if cross_road.capitalize() == 'Left' or cross_road.capitalize() == 'L':         
             print(" ")
             print("I Am The Creator, Wielding The Power To Obliterate You!")
             print("Game Over! You have angered the Creator And Shall Now Face Wrath Of The Hand Of The Creator :[ ")
-    elif cross_lake.capitalize() == 'Swim' or cross_lake.capitalize() == 'Swim To The Island' or cross_lake.capitalize() == 'S': 
+    elif cross_lake.capitalize() == 'Swim' or cross_lake.capitalize() == 'Swim to the island' or cross_lake.capitalize() == 'S': 
         print(" ")
         print("Game Over! You Were Vanquished By The Lake's Fearsome Guardian During Your Quest. :( \n")
-    elif cross_lake.capitalize() == 'Fly' or cross_lake.capitalize() == 'Fly To The Island' or cross_lake.capitalize() == 'Helicopter Helicopter' or cross_lake.capitalize() == 'Helicopter' or cross_lake.capitalize() == 'Plane':
+    elif cross_lake.capitalize() == 'Fly' or cross_lake.capitalize() == 'Fly to the island' or cross_lake.capitalize() == 'Helicopter helicopter' or cross_lake.capitalize() == 'Helicopter' or cross_lake.capitalize() == 'Plane':
         print(" ")
         print("Game Over! The Airborne Wyrm Of The Lake Detected Your Presence :(")
     else:
