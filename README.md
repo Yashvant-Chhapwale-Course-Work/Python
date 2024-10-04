@@ -40,4 +40,4 @@ glass2 = "juice"
  - The `print()` Function in Python is a Built-In Function used to Output Data to the Console or Standard Output Device.
  - The `" "` or `' '` are used for indicating the `String` Data Type.
  - The `+` Operator can be used for `Concatenation` of two or more Strings.
- - 
+ - In Python, `Variables` are used to Store Data Values. They Act as Containers for Information that you can Use and Manipulate throughout your Program.
