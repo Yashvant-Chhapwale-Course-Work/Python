@@ -261,11 +261,11 @@ glass2 = "juice"
            print(i)
       ```
      - `break` Statement: The break statement is used to exit a loop prematurely.
-      ```
-      for i in range(10):
+       ```
+       for i in range(10):
           if i == 5:
              break  # Exit the loop when i is 5
           print(i)
-      ```
+       ```
    
 ---
