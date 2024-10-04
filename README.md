@@ -9,7 +9,10 @@ A Record Of Assignments Under Python Course Work From Udemy.
 </div>
 
   1. Day 1 >> [CHECK CONTENT](#day-1)
-  2. 
+  2. Day 2 >> [CHECK CONTENT](#day-2)
+  3. Day 3 >> [CHECK CONTENT](#day-3)
+  4. Day 4 >> [CHECK CONTENT](#day-4)
+  5. Day 5 >> [CHECK CONTENT](#day-5)
 
  
 ---
