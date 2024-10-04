@@ -119,15 +119,8 @@ glass2 = "juice"
 
 ## Day 3
 ### Coding_Exercise-5
- - In the BMI-Calculator
-```
-1. Mix 500g of Flour, 10g Yeast and 300ml Water in a bowl.
-2. Knead the dough for 10 minutes.
-3. Add 3g of Salt.
-4. Leave to rise for 2 hours.
-5. Bake at 200 degrees C for 30 minutes.
-```
-### Day-2_Project
+ - In the `BMI-calculator` add an `if-elif-else` block which if `bmi < 18` prints `Underweight!` , if `bmi >= 18 and bmi <25` prints `Healthy!`, else `bmi > 25` prints `Overweight!`.
+### Day-3_Project
  - Write A Program to create a `Band-Name Generator` which takes the user's `city` and `pet` as Input and `Concatenates` them to generate the Band-Name.
 
 <div align = "center">
