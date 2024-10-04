@@ -11,7 +11,8 @@ A Record Of Assignments Under Python Course Work From Udemy.
 <div style="display: flex; justify-content: space-between;">
 
   <div style="flex: 1; padding-right: 20px;">
-    **Introduction**  
+   
+    Day 1 :: Introduction to Python with `print()` Function  
     **Installation**  
     **Usage**  
     **Contributing**  
@@ -19,7 +20,8 @@ A Record Of Assignments Under Python Course Work From Udemy.
   </div>
 
   <div style="flex: 1; padding-left: 20px;">
-    [Introduction](#introduction)  
+   
+    [CHECK CONTENT](#day-1)
     [Installation](#installation)  
     [Usage](#usage)  
     [Contributing](#contributing)  
