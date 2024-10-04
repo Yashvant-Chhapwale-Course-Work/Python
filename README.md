@@ -8,13 +8,25 @@ A Record Of Assignments Under Python Course Work From Udemy.
  <h1>Table of Contents</h1>
 </div>
 
-| Section Name         | Link                                    |
-|----------------------|-----------------------------------------|
-| Introduction         | [Introduction](#introduction)           |
-| Installation         | [Installation](#installation)           |
-| Usage                | [Usage](#usage)                         |
-| Contributing         | [Contributing](#contributing)           |
-| License              | [License](#license)                     |
+<div style="display: flex; justify-content: space-between;">
+
+  <div style="flex: 1; padding-right: 20px;">
+    **Introduction**  
+    **Installation**  
+    **Usage**  
+    **Contributing**  
+    **License**  
+  </div>
+
+  <div style="flex: 1; padding-left: 20px;">
+    [Introduction](#introduction)  
+    [Installation](#installation)  
+    [Usage](#usage)  
+    [Contributing](#contributing)  
+    [License](#license)  
+  </div>
+
+</div>
 
 
 
