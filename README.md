@@ -10,14 +10,14 @@ A Record Of Assignments Under Python Course Work From Udemy.
 
 <div align="center">
 
-| TITLE                                                                      | SECTION_LINK                            |
-|----------------------------------------------------------------------------|-----------------------------------------|
-| 1. **Day 1 : : Introduction to Python with `print()` Function**<br>            | [CHECK CONTENT](#day-1)                 |
-| 2.  **Day 2 : : An Overview On Data Types, Type Casting in Python with<br> `int()`, `float()` & `str()` Function, Using `input()` Function <br>   To Take User Inputs** | [CHECK CONTENT](#day-2)                 |     
-| 3.                                                                         | [Usage](#usage)                         |
-| Features                                                                   | [Features](#features)                   |
-| Contributing                                                               | [Contributing](#contributing)           |
-| License                                                                    | [License](#license)                     |
+| TITLE                                                                                                                                                                  | SECTION_LINK                            |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
+| 1. **Day 1 : : Introduction to Python with `print()` Function**<br>                                                                                                    | [CHECK CONTENT](#day-1)                 |
+| 2. **Day 2 : : An Overview On Data Types, Type Casting in Python with<br> `int()`, `float()` & `str()` Function, Using `input()` Function <br>   To Take User Inputs** | [CHECK CONTENT](#day-2)                 |     
+| 3. **Day 1 : : Introduction to Python with `print()` Function**<br>                                                                                                    | [CHECK CONTENT](#day-2)                 |
+| Features                                                                                                                                                               | [CHECK CONTENT](#day-2)                 |
+| Contributing                                                                                                                                                           | [CHECK CONTENT](#day-2)                 |
+| License                                                                                                                                                                | [CHECK CONTENT](#day-2)                 |
 </div>
  
 ---
