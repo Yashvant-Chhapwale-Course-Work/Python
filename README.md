@@ -64,7 +64,62 @@ glass2 = "juice"
 
 ## Day 2
 ### Coding_Exercise-4
- - Using `print()` Statement write a `Python Program` which gives the following Output: 
+ - Write A Program to create a `BMI-calculator` which calculates the BMI for a Person by taking `Weight` & `Height` as inputs from User and Processing the formula:
+   ```
+   bmi = weight / (height ^ 2)
+   ```
+### Day-2_Project
+ - Write A Program to create a `Tip-calculator` which takes the `total-bill`, `tipping-amount` & `number-of-persons-splitting-the-bill` as Input and calculates how much Amount Each Person    should Pay.
+
+<div align = "center">
+ _______________________________________________
+</div>
+
+## Important Concepts
+ - The `input()` Function in Python is used to take Input from the User. It reads a line from Standard Input (Typically From The Keyboard) and Returns it as a String.
+   ```
+    Syntax:
+   <variable_name> = input("String To Be Displayed To User:")
+   ```
+ - **Primitive Data Types in Python:**
+   - Number Type:
+     - `int`: Represents Integer Values, which can be Positive, Negative, or Zero.
+     - `float`: Represents floating-point numbers, which are numbers that have a decimal point.
+   - Sequence Type:
+     - `str`: Represents strings, which are sequences of characters.
+   - Boolean Type:
+     - `bool`: Represents Boolean values, which can be either True or False.
+   - None Type:
+     - `none type`: Represents the absence of a value.  
+ - **Type Casting:**
+    - In Python, `Type Casting` (or `Type Conversion`) is the Process of Converting One Data Type into Another.
+    - `int()`: You can convert a Float or a String to an Integer using the 'int()' Function.
+      ```
+      num_str = "42"
+      num_int_from_str = int(num_str) 
+      ```
+    - `float()`: You can convert a Float or a String to an Integer using the 'int()' Function.
+      ```
+      num_int = 5
+      num_float = float(num_int)
+      ``` 
+    - `str()`: You can convert any Primitive Data Type to a String using the 'str()' Function.
+      ```
+      is_active = True
+      str_from_bool = str(is_active)
+      ```
+    - `bool()`: You can convert any Primitive Data Type to a Boolean using the 'bool()' Function.
+      ```
+      none_value = None
+      bool_from_none = bool(none_value)  # Result: False
+      ```
+    - The NoneType in Python represents the absence of a value. You can't "cast" other types to NoneType.
+
+---
+
+## Day 3
+### Coding_Exercise-5
+ - In the BMI-Calculator
 ```
 1. Mix 500g of Flour, 10g Yeast and 300ml Water in a bowl.
 2. Knead the dough for 10 minutes.
