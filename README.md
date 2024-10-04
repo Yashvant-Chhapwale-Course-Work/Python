@@ -81,6 +81,10 @@ glass2 = "juice"
 
 ## Important Concepts
  - The `input()` Function in Python is used to take Input from the User. It reads a line from Standard Input (Typically From The Keyboard) and Returns it as a String.
+   ```
+    Syntax:
+   <variable_name> = input("String To Be Displayed To User:")
+   ```
  - Primitive Data Types in Python:
    - Number Type:
      - `int`: Represents Integer Values, which can be Positive, Negative, or Zero.
