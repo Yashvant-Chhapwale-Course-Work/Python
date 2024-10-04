@@ -13,9 +13,9 @@ A Record Of Assignments Under Python Course Work From Udemy.
 | Section Name                                                           | Link                                    |
 |------------------------------------------------------------------------|-----------------------------------------|
 | 1. **Day 1 : : Introduction to Python with `print()` Function**        | [CHECK CONTENT](#day-1)                 |
-| 2.  **Day 2 :: An Overview On Data Types, Type Casting in Python with  | [Installation](#installation)           |
-|      `int()`, `float()` & `str()` Function, Using `input()` Function   |                                         |
-|       To Take User Inputs**                                            |                                         |               
+| 2.  **Day 2 :: An Overview On Data Types, Type Casting in Python with  | [CHECK CONTENT](#day-2)                 |
+      `int()`, `float()` & `str()` Function, Using `input()` Function                                            
+       To Take User Inputs**                                                                                                    
 | 3.                                                                     | [Usage](#usage)                         |
 | Features                                                               | [Features](#features)                   |
 | Contributing                                                           | [Contributing](#contributing)           |
