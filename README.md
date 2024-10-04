@@ -5,7 +5,7 @@ A Record Of Assignments Under Python Course Work From Udemy.
 ---
 
 <div align="center">
- <h3>Index</h3>
+ <h1>Index</h1>
 </div>
 
 ---
