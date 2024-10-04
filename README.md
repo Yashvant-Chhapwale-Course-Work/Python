@@ -8,6 +8,26 @@ A Record Of Assignments Under Python Course Work From Udemy.
  <h1>Index</h1>
 </div>
 
+<div style="display: flex; justify-content: space-between;">
+
+  <div style="flex: 1; padding: 10px;">
+
+    <h3>Left Section</h3>
+    <p>This is some content for the left section.</p>
+    
+  </div>
+
+  <div style="flex: 1; padding: 10px;">
+
+    <h3>Right Section</h3>
+    <p>This is some content for the right section.</p>
+    
+  </div>
+
+</div>
+
+
+
 <div style="display: flex; justify-content: space-between; align-items: center;">
  <div style="flex: 1; padding: 10px;">
   
