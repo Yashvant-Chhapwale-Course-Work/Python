@@ -85,8 +85,10 @@ glass2 = "juice"
    - Number Type:
       - `int`: Represents Integer Values, which can be Positive, Negative, or Zero.
       - `float`: Represents floating-point numbers, which are numbers that have a decimal point.
-   - 
-    
+   - Sequence Type:
+      - `str`: Represents strings, which are sequences of characters.
+   - Boolean Type:
+      - `bool`: Represents Boolean values, which can be either True or False.   
  - The `+` Operator can be used for `Concatenation` of two or more Strings.
  - In Python, `Variables` are used to Store Data Values. They Act as Containers for Information that you can Use and Manipulate throughout your Program.
 
