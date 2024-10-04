@@ -15,7 +15,7 @@ A Record Of Assignments Under Python Course Work From Udemy.
 | 1. **Day 1 : : Introduction to Python with `print()` Function**                                                                                                        | >> [CHECK CONTENT](#day-1)                 |
 | 2. **Day 2 : : An Overview On Data Types, Type Casting in Python with<br> `int()`, `float()` & `str()` Function, Using `input()` Function <br>   To Take User Inputs** | >> [CHECK CONTENT](#day-2)                 |     
 | 3. **Day 3 : : `if-elif-else` Statements                                                                                                                               | >> [CHECK CONTENT](#day-3)                 |
-| 4. **Day 4 : : Introduction to Python with `print()` Function**<br>                                                                                                    | >> [CHECK CONTENT](#day-4)                 |
+| 4. **Day 4 : : `Loops` with Python                                                                                                                                     | >> [CHECK CONTENT](#day-4)                 |
 | 5. **Day 5 : : Introduction to Python with `print()` Function**<br>                                                                                                    | >> [CHECK CONTENT](#day-5)                 |
 | 6. **Day 6 : : Introduction to Python with `print()` Function**<br>                                                                                                    | >> [CHECK CONTENT](#day-6)                 |
 </div>
