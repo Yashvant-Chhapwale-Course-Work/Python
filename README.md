@@ -84,8 +84,9 @@ glass2 = "juice"
  - Primitive Data Types in Python:
    - Number Type:
       - `int`: Represents Integer Values, which can be Positive, Negative, or Zero.
-      - `int`: Represents Integer Values, which can be Positive, Negative, or Zero.
-      - `int`: Represents Integer Values, which can be Positive, Negative, or Zero.
+      - `float`: Represents floating-point numbers, which are numbers that have a decimal point.
+   - 
+    
  - The `+` Operator can be used for `Concatenation` of two or more Strings.
  - In Python, `Variables` are used to Store Data Values. They Act as Containers for Information that you can Use and Manipulate throughout your Program.
 
