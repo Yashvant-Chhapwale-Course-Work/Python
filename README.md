@@ -81,7 +81,11 @@ glass2 = "juice"
 
 ## Important Concepts
  - The `input()` Function in Python is used to take Input from the User. It reads a line from Standard Input (Typically From The Keyboard) and Returns it as a String.
- - The `" "` or `' '` are used for indicating the `String` Data Type.
+ - Primitive Data Types in Python:
+   - Number Type:
+      -`int`: Represents Integer Values, which can be Positive, Negative, or Zero.
+      -`int`: Represents Integer Values, which can be Positive, Negative, or Zero.
+      -`int`: Represents Integer Values, which can be Positive, Negative, or Zero.
  - The `+` Operator can be used for `Concatenation` of two or more Strings.
  - In Python, `Variables` are used to Store Data Values. They Act as Containers for Information that you can Use and Manipulate throughout your Program.
 
