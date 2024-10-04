@@ -41,3 +41,29 @@ glass2 = "juice"
  - The `" "` or `' '` are used for indicating the `String` Data Type.
  - The `+` Operator can be used for `Concatenation` of two or more Strings.
  - In Python, `Variables` are used to Store Data Values. They Act as Containers for Information that you can Use and Manipulate throughout your Program.
+
+---
+
+## Day 2
+### Coding_Exercise-4
+ - Using `print()` Statement write a `Python Program` which gives the following Output: 
+```
+1. Mix 500g of Flour, 10g Yeast and 300ml Water in a bowl.
+2. Knead the dough for 10 minutes.
+3. Add 3g of Salt.
+4. Leave to rise for 2 hours.
+5. Bake at 200 degrees C for 30 minutes.
+```
+### Day-2_Project
+ - Write A Program to create a `Band-Name Generator` which takes the user's `city` and `pet` as Input and `Concatenates` them to generate the Band-Name.
+
+<div align = "center">
+ _______________________________________________
+</div>
+
+## Important Concepts
+ - The `print()` Function in Python is a Built-In Function used to Output Data to the Console or Standard Output Device.
+ - The `" "` or `' '` are used for indicating the `String` Data Type.
+ - The `+` Operator can be used for `Concatenation` of two or more Strings.
+ - In Python, `Variables` are used to Store Data Values. They Act as Containers for Information that you can Use and Manipulate throughout your Program.
+
