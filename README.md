@@ -85,7 +85,7 @@ glass2 = "juice"
     Syntax:
    <variable_name> = input("String To Be Displayed To User:")
    ```
- - Primitive Data Types in Python:
+ - **Primitive Data Types in Python:**
    - Number Type:
      - `int`: Represents Integer Values, which can be Positive, Negative, or Zero.
      - `float`: Represents floating-point numbers, which are numbers that have a decimal point.
@@ -93,7 +93,23 @@ glass2 = "juice"
      - `str`: Represents strings, which are sequences of characters.
    - Boolean Type:
      - `bool`: Represents Boolean values, which can be either True or False.   
- - The `+` Operator can be used for `Concatenation` of two or more Strings.
+ - **Type Casting:**
+    - In Python, `Type Casting` (or `Type Conversion`) is the Process of Converting One Data Type into Another.
+    - `int()`: You can convert a Float or a String to an Integer using the 'int()' Function.
+      ```
+      num_str = "42"
+      num_int_from_str = int(num_str) 
+      ```
+    - `float()`: You can convert a Float or a String to an Integer using the 'int()' Function.
+      ```
+      num_int = 5
+      num_float = float(num_int)
+      ``` 
+    - `str()`: You can convert any Primitive Data Type to a String using the str()' Function.
+      ```
+      is_active = True
+      str_from_bool = str(is_active)  # Result: "True"
+      ``` 
  - In Python, `Variables` are used to Store Data Values. They Act as Containers for Information that you can Use and Manipulate throughout your Program.
 
 ---
