@@ -32,4 +32,6 @@ glass2 = "juice"
 ### Day-1_Project
  - Write A Program to create a `Band-Name Generator` which takes the user's `city` and `pet` as Input and `Concatenates` them to generate the Band-Name.
 
-============================================================================================
+<div align = "center">
+ _____________________________________
+</div>
