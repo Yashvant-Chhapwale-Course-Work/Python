@@ -143,14 +143,14 @@ glass2 = "juice"
    Syntax:
    if condition1:
     # Code block for condition1
-    if condition2:
-      # Code block for condition2
-    elif condition3:
-      # Code block for condition3
+    if nested_condition1:
+      # Code block for nested_condition1
+    elif nested_condition2:
+      # Code block for nested_condition2
     else:
-      # Code block if condition2 and condition3 are false
-   elif condition4:
-    # Code block for condition4
+      # Code block if nested_condition1 and nested_condition2 are false
+   elif condition2:
+    # Code block for condition2
    else:
     # Code block if all previous conditions are false
    ```
