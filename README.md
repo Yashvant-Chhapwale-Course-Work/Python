@@ -335,7 +335,7 @@ glass2 = "juice"
       import string
       print(string.digits)  # Output: '0123456789'
       ```
-     -`string.punctuation`: A string of all punctuation characters.
+     - `string.punctuation`: A string of all punctuation characters.
        ```
        import string
        print(string.punctuation)  # Output: '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
