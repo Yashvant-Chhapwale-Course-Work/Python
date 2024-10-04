@@ -76,7 +76,7 @@ glass2 = "juice"
 </div>
 
 <div align="center">
- <h3>Important Concepts</h3>
+ <h2>Important Concepts</h2>
 </div>
 
  - The `input()` Function in Python is used to take Input from the User. It reads a line from Standard Input (Typically From The Keyboard) and Returns it as a String.
@@ -131,7 +131,7 @@ glass2 = "juice"
 </div>
 
 <div align="center">
- <h3>Important Concepts</h3>
+ <h2>Important Concepts</h2>
 </div>
 
  - In Python, The `if`, `elif`, and `else` Statements are used for Conditional Execution of Code Blocks.
@@ -199,7 +199,7 @@ glass2 = "juice"
 </div>
 
 <div align="center">
- <h3>Important Concepts</h3>
+ <h2>Important Concepts</h2>
 </div>
 
  - In Python, a `List` is a Versatile and Mutable (Changeable) Data Structure that can hold an Ordered Collection of Items. You can Create A List by Enclosing Elements in Square Brackets  `[]`, Separated by Commas.
