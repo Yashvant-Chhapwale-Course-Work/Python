@@ -121,17 +121,38 @@ glass2 = "juice"
 ### Coding_Exercise-5
  - In the `BMI-calculator` add an `if-elif-else` block which if `bmi < 18` prints `Underweight!` , if `bmi >= 18 and bmi <25` prints `Healthy!`, else `bmi > 25` prints `Overweight!`.
 ### Day-3_Project
- - Write A Program to create a `Band-Name Generator` which takes the user's `city` and `pet` as Input and `Concatenates` them to generate the Band-Name.
+ - Write A Program to create a `Treasure-Hunter-Game`.
 
 <div align = "center">
  _______________________________________________
 </div>
 
 ## Important Concepts
- - The `input()` Function in Python is used to take Input from the User. It reads a line from Standard Input (Typically From The Keyboard) and Returns it as a String.
+ - In Python, The `if`, `elif`, and `else` Statements are used for Conditional Execution of Code Blocks.
    ```
-    Syntax:
-   <variable_name> = input("String To Be Displayed To User:")
+   Syntax:
+   if condition1:
+    # Code to execute if condition1 is True
+   elif condition2:
+    # Code to execute if condition2 is True
+   else:
+    # Code to execute if neither condition1 nor condition2 is True
+   ```
+ - `Nested if-elif-else` Statements in Python allow you to Check Multiple Conditions at Different Levels.
+   ```
+   Syntax:
+   if condition1:
+    # Code block for condition1
+    if condition2:
+      # Code block for condition2
+    elif condition3:
+      # Code block for condition3
+    else:
+      # Code block if condition2 and condition3 are false
+   elif condition4:
+    # Code block for condition4
+   else:
+    # Code block if all previous conditions are false
    ```
  - **Primitive Data Types in Python:**
    - Number Type:
