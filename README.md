@@ -11,10 +11,10 @@ A Record Of Assignments Under Python Course Work From Udemy.
 <div align="center">
  
  1.Day 1  -------------------  Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-1) <br>
- 2.Day 2  -------------------  Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-2)
- 3.Day 3  -------------------  Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-3)
- 4.Day 4  -------------------  Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-4)
- 5.Day 5  -------------------  Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-5)
+ 2.Day 2  -------------------  Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-2) <br>
+ 3.Day 3  -------------------  Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-3) <br>
+ 4.Day 4  -------------------  Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-4) <br>
+ 5.Day 5  -------------------  Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-5) <br>
  6. 
   
 </div>
