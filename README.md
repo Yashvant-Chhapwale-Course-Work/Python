@@ -82,13 +82,13 @@ glass2 = "juice"
 ## Important Concepts
  - The `input()` Function in Python is used to take Input from the User. It reads a line from Standard Input (Typically From The Keyboard) and Returns it as a String.
  - Primitive Data Types in Python:
-  - Number Type:
-   - `int`: Represents Integer Values, which can be Positive, Negative, or Zero.
-   - `float`: Represents floating-point numbers, which are numbers that have a decimal point.
-  - Sequence Type:
-   - `str`: Represents strings, which are sequences of characters.
-  - Boolean Type:
-   - `bool`: Represents Boolean values, which can be either True or False.   
+   - Number Type:
+     - `int`: Represents Integer Values, which can be Positive, Negative, or Zero.
+     - `float`: Represents floating-point numbers, which are numbers that have a decimal point.
+   - Sequence Type:
+     - `str`: Represents strings, which are sequences of characters.
+   - Boolean Type:
+     - `bool`: Represents Boolean values, which can be either True or False.   
  - The `+` Operator can be used for `Concatenation` of two or more Strings.
  - In Python, `Variables` are used to Store Data Values. They Act as Containers for Information that you can Use and Manipulate throughout your Program.
 
