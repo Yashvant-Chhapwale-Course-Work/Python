@@ -92,7 +92,9 @@ glass2 = "juice"
    - Sequence Type:
      - `str`: Represents strings, which are sequences of characters.
    - Boolean Type:
-     - `bool`: Represents Boolean values, which can be either True or False.   
+     - `bool`: Represents Boolean values, which can be either True or False.
+   - None Type:
+     - `none type`: Represents the absence of a value.  
  - **Type Casting:**
     - In Python, `Type Casting` (or `Type Conversion`) is the Process of Converting One Data Type into Another.
     - `int()`: You can convert a Float or a String to an Integer using the 'int()' Function.
@@ -105,11 +107,16 @@ glass2 = "juice"
       num_int = 5
       num_float = float(num_int)
       ``` 
-    - `str()`: You can convert any Primitive Data Type to a String using the str()' Function.
+    - `str()`: You can convert any Primitive Data Type to a String using the 'str()' Function.
       ```
       is_active = True
-      str_from_bool = str(is_active)  # Result: "True"
-      ``` 
- - In Python, `Variables` are used to Store Data Values. They Act as Containers for Information that you can Use and Manipulate throughout your Program.
+      str_from_bool = str(is_active)
+      ```
+    - `bool()`: You can convert any Primitive Data Type to a Boolean using the 'bool()' Function.
+      ```
+      none_value = None
+      bool_from_none = bool(none_value)  # Result: False
+      ```
+    - The NoneType in Python represents the absence of a value. You can't "cast" other types to NoneType.
 
 ---
