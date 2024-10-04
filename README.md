@@ -8,20 +8,20 @@ A Record Of Assignments Under Python Course Work From Udemy.
  <h1>Table of Contents</h1>
 </div>
 
-**Introduction** - [Introduction](#introduction)
+**Day 1 :: Introduction to Python with `print()` Function** >> [CHECK CONTENT](#day-1)
 
 
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
  <div style="flex: 1; padding: 10px;">
   
-  1. Day 1 :: Introduction to Python with `print()` Function
+  1. 
   2. 
  </div>
  
  <div style="flex: 1; padding: 10px;">
   
-  >> [CHECK CONTENT](#day-1)
+  )
  </div>
 </div>
 
