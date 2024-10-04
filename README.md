@@ -163,18 +163,6 @@ glass2 = "juice"
    capitalized_text = text.capitalize()
    print(capitalized_text)  # Output: "Hello world!"
    ``` 
- - `capitalize()` : Capitalizes the first character of the string and makes all other characters lowercase.
-   ```
-   text = "hello world!"
-   capitalized_text = text.capitalize()
-   print(capitalized_text)  # Output: "Hello world!"
-   ```
- - `capitalize()` : Capitalizes the first character of the string and makes all other characters lowercase.
-   ```
-   text = "hello world!"
-   capitalized_text = text.capitalize()
-   print(capitalized_text)  # Output: "Hello world!"
-   ```
 - `upper()` : Converts all characters in the string to uppercase.
    ```
    text = "hello world!"
