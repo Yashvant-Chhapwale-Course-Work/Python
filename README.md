@@ -8,6 +8,7 @@ A Record Of Assignments Under Python Course Work From Udemy.
  <h1>Index</h1>
 </div>
  - [Day 1](#Day-1) ------------------ Introduction to Python with 'print()' Function
+ 
 ---
 
 ## Day 1
