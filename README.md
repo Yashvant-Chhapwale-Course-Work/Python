@@ -9,28 +9,10 @@ A Record Of Assignments Under Python Course Work From Udemy.
 </div>
 
 1. **Day 1 : : Introduction to Python with `print()` Function** >> [CHECK CONTENT](#day-1)
-
-
-
-<div style="display: flex; justify-content: space-between; align-items: center;">
- <div style="flex: 1; padding: 10px;">
-  
-  1. 
-  2. 
- </div>
- 
- <div style="flex: 1; padding: 10px;">
-  
-  )
- </div>
-</div>
-
-
-   <br>
-2. Day 2 :: An Overview On Data Types, Type Casting in Python with `int()`, `float()` & `str()` Function, Using `input()` Function To Take User Inputs  >>  [CHECK CONTENT](#day-2) <br>
-3. Day 3 :: Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-3) <br>
-4. Day 4 :: Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-4) <br>
-5. Day 5 :: Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-5) <br>
+2. **Day 2 :: An Overview On Data Types, Type Casting in Python with `int()`, `float()` & `str()` Function, Using `input()` Function To Take User Inputs**  >>  [CHECK CONTENT](#day-2)
+3. Day 3 :: Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-3) 
+4. Day 4 :: Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-4) 
+5. Day 5 :: Introduction to Python with `print()` Function  >>  [CHECK CONTENT](#day-5) 
 6.
   
  
