@@ -205,16 +205,16 @@ word_bank = ["ant", "baboon", "badger", "bat", "bear", "beaver", "camel", "cat",
 def hangman_game():
     continue_game = True
 
-    #Function To Display Letters Guessed By User:
+    #Function To Display Letters Guessed By User: 
     def display_guess(already_guessed):
         display_guess = ""
         for letter in chosen_word:
-                    if letter == guess.lower():
+                    if letter == guess.lower():        #If chosen_word's Letter is same as Users' Guessed Letter Then 'display_guess += Users' Guessed Letter'. 
                         already_guessed.append(guess)
                         display_guess += guess
-                    elif letter in already_guessed:
+                    elif letter in already_guessed:    #If chosen_word's Letter is already present in 'already_guessed' List Then 'display_guess += chosen_word's Letter '. 
                         display_guess += letter
-                    else:
+                    else:                              #Else 'display_guess += "_" '.
                         display_guess += "_"
         return display_guess
 
@@ -232,7 +232,7 @@ def hangman_game():
         print(placeholder)
 
         win = False
-        already_guessed = []
+        already_guessed = [] #Holds The Values Already Guessed By User And Helps In Printing Them To The 'display'/'display_guess' Variable.
 
         #Actual_Logic
         #While 'lives > 0' This Loop Will Execute:
@@ -244,14 +244,49 @@ def hangman_game():
             #If Users' Guess Is In The chosen_word Then Following Block Executes:
             if guess.lower() in chosen_word:
                 print(hangman[lives])
+
                 display = display_guess(already_guessed)
                 print(display)
                 print(" ")
+
                 print("Choices: " + str(word_bank))
                 print(" ")
                 #If 'display' String is equal to 'chosen_word' Then User Wins & Exits From Loop: 
                 if str(display) == str(chosen_word):
-                    print("You Saved The Man From Being Hanged :)")
+                    print(r'''
+                          
+                                                ⢀⣀⠤⠤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠤⠞⣩⣴⠚⢿⣟⣿⣻⣟⡿⣶⣬⣉⡒⠦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣹⣯⣻⡿⣿⣷⣌⣿⣞⡷⣯⣟⡷⣯⣿⡿⣿⣄⣳⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣧⣾⣯⣿⣽⡿⣾⣟⡷⣯⣟⡷⣯⣟⣷⡿⣟⣿⣽⡟⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡜⣾⣿⣻⣟⡾⣽⣳⢿⣟⣷⢯⣟⡷⣯⡿⣽⣿⣟⣿⡇⢹⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⢣⠟⠺⠷⠯⣟⣷⣯⣟⣾⣟⡿⣾⣽⡿⣽⣿⣟⠾⠟⠛⢸⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⢩⣴⣾⢿⣶⣶⣤⣑⣛⣿⠯⠿⠷⢯⣿⣛⣥⣴⣶⣶⣶⣸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣶⠹⢿⣆⠈⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢸⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣯⣧⡈⠙⠷⣦⣩⢧⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠏⣠⣸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣻⢶⣤⣤⣭⣟⣻⠿⣿⣿⣿⣿⢿⣟⣯⣵⣶⣿⣯⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣯⢿⣽⣻⣿⠿⠿⠿⠷⠾⠶⠿⠿⠿⢿⣽⣾⣽⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣟⣯⣿⣷⣼⣉⣉⣩⡶⠩⠄⡈⢉⣵⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡻⣿⡿⣽⣧⡳⣕⢲⢒⠒⢆⡠⣲⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⢠⡞⠋⢳⡄⠀⠀⠀⠀⠀⠀⠀⢀⡇⠐⠝⠻⢯⣿⣷⣶⣶⣶⣶⣾⣿⠟⢻⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⢻⠀⠀⠀⠀⢀⣀⡤⢾⣇⠀⠈⠢⡀⠉⠉⠉⠉⠉⠛⠉⠀⠀⠸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⢧⠀⠀⢺⣀⣤⢖⣺⣭⣶⢾⡿⣿⣷⣤⡀⠈⠂⠄⡀⠀⠀⠀⠀⢀⣠⣶⣿⣷⣦⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⢀⣠⣼⡇⢒⠁⢷⣾⢿⣽⣳⢯⡿⣽⣳⢯⡿⣿⣶⣦⣤⣠⣅⣠⣴⣶⣿⢿⣻⢿⡽⣯⣟⡿⣿⣿⣲⠦⣤⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⣠⡾⠿⠾⠽⠾⠤⠥⠬⢿⣟⡾⣽⢯⣟⡷⣯⢿⣽⣳⢯⣟⣿⡻⠏⢿⣯⢷⣯⣟⣯⢿⡽⣷⢯⣟⡷⣯⣟⡿⣶⣦⣭⡙⣳⢦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⢀⢟⣾⡏⠀⠀⠀⠀⠀⠀⢀⠈⣿⣻⣽⣻⢾⡽⣯⣟⡾⣽⣻⢾⠟⠁⠀⠈⠙⣿⢾⡽⣞⣿⡽⣯⣟⣾⣻⢷⣯⣟⡷⣯⡟⣱⡿⣷⣮⣳⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⣸⣼⠋⠀⠀⠐⠒⠒⠒⠂⠒⠊⢿⣷⢯⣟⣯⣟⡷⣯⣟⣷⠟⠁⠀⠀⠀⠀⠀⠉⣿⣻⡽⣾⡽⣷⢯⣷⣻⣟⡾⣽⣻⡝⢰⣿⣽⣳⣟⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⡇⣿⣇⠀⠀⢀⢀⢀⣀⣀⣐⣈⣸⡿⣯⣟⡾⣽⣻⢷⡻⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢟⣷⣻⡽⣟⣾⣳⢯⣟⣷⡟⢀⣿⡷⣯⣷⣻⢾⣿⢷⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⢸⣷⣿⣿⡀⠀⠁⠉⢉⡁⠀⠀⠈⣿⣟⡷⣯⣟⡷⡯⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣷⣻⣟⡾⣽⣯⣟⣾⠁⢸⣯⣟⡷⣯⣟⡿⣞⣿⡆⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⢸⣿⣿⢻⡇⠀⠀⠂⠒⠒⠒⠒⢺⣿⡽⣯⢷⡯⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢷⣯⣟⣷⣻⢾⠃⠀⣾⣿⣽⣻⢷⣯⣟⣯⣟⣿⡄⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⣼⣿⡟⠈⠧⠤⣤⣤⣤⣤⣤⠤⠞⣿⣿⣽⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢻⣾⣳⢯⡏⠀⡀⣿⣿⡾⣽⣻⢾⡽⣾⡽⣾⣿⣄⠀⠀⠀⠀⠀
+                    ⠀⢠⣟⣿⣀⣤⣴⡿⣿⢿⣆⠀⠀⠀⠀⣿⢘⡋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣽⡿⠀⢠⢰⣿⣟⣿⣯⣟⣯⣟⣷⣻⡽⣿⣿⣆⠀⠀⠀⠀
+                    ⠀⣼⣿⠹⣿⣽⣳⣟⣿⣟⣿⣷⣄⠀⣼⣿⡾⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢙⡅⠀⠎⢸⣿⣟⡾⣷⣟⡾⣽⢾⣽⣻⢷⣻⣞⣷⡀⠀⠀
+                    ⢀⣿⣿⡆⣿⣞⣷⣻⡿⣾⣟⣾⣿⢿⣿⣿⡿⣽⣻⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣿⣷⡘⠀⣾⣿⡿⣽⣻⢾⣟⣯⢿⡾⣽⢯⡿⣽⣿⣧⠀⠀
+                    ⢸⣿⣿⣿⣿⣽⢾⣿⡽⠟⠊⠉⠀⠸⣷⣿⣟⡷⣯⢿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣟⣷⣻⣇⢀⡏⢻⣿⣯⣟⣯⢿⣾⢿⡽⣯⡿⣽⢷⣻⣿⡆⠀
+                          
+                    You Saved The Man From Being Hanged :)
+                          
+                    ''')
                     print("Lives Left: " + str(lives))
                     print(" ")
                     break
@@ -259,11 +294,15 @@ def hangman_game():
             elif guess.lower() not in chosen_word:
                 lives -= 1
                 print(hangman[lives])
+
                 display = display_guess(already_guessed)
                 print(display)
+
                 print(" ")
-                print("Choices: " + str(word_bank))
-                print(" ")
+                if lives > 0:
+                    print("Choices: " + str(word_bank))
+                    print(" ")
+                
 
         #Continue_Game? Takes User Input To Determine If 'continue_game == True' or 'continue_game == False'       
         while True:
