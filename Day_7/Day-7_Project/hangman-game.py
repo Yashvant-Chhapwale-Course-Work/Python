@@ -1,11 +1,10 @@
 import random
 from hangman_words import word_bank
-from hangman_art import logo
-from hangman_art import stages
-from hangman_art import win_art
+from hangman_art import logo , stages , win_art
 
 print(logo)
 
+word_list = word_bank
 hangman = stages
 
 def hangman_game():
@@ -27,7 +26,7 @@ def hangman_game():
     #Game_Logic
     #While 'continue_game == True' This Loop Will Execute:
     while continue_game == True:
-        chosen_word = random.choice(word_bank)        
+        chosen_word = random.choice(word_list)        
 
         lives = 6
         print(hangman[lives])
@@ -37,7 +36,6 @@ def hangman_game():
             placeholder += "_"
         print(placeholder)
 
-        win = False
         already_guessed = [] #Holds The Values Already Guessed By User And Helps In Printing Them To The 'display'/'display_guess' Variable.
 
         #Actual_Logic
@@ -55,7 +53,7 @@ def hangman_game():
                 print(display)
                 print(" ")
 
-                print("Choices: " + str(word_bank))
+                print("Choices: " + str(word_list)) #Acts as hint to User
                 print(" ")
                 #If 'display' String is equal to 'chosen_word' Then User Wins & Exits From Loop: 
                 if str(display) == str(chosen_word):
@@ -73,7 +71,7 @@ def hangman_game():
 
                 print(" ")
                 if lives > 0:
-                    print("Choices: " + str(word_bank))
+                    print("Choices: " + str(word_list))
                     print(" ")
                 
 
