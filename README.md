@@ -345,9 +345,7 @@ glass2 = "juice"
 ---
 
 ## Day 6
-### Coding_Exercise-5
- - Write A Program to create a `FizzBuzz-Game` which prints `Fizz` if number is divisible by 3, `Bizz` if number is divisible by 5 & `FizzBuzz` if number is divisible by both 3 and 5.
-### Day-5_Project
+### Day-6_Project
  - Write A Program to create a `Password-Generator` which takes `number-of-letter`, `number-of-digits` & `number-of-symbols` to be included in password, as input from User & genrates a Randomized String as Password, Accordingly. 
 
 <div align = "center">
