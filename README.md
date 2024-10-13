@@ -361,6 +361,7 @@ glass2 = "juice"
    - It uses a Robot named `Reeborg`, which can be controlled through simple programming commands in Python (or Reeborg’s native language) to solve puzzles.
    - You can access Reeborg’s World Maze at [Reeborg Maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
 <br>
+
  - **Python Functions:**
    - A function in Python is a block of organized, reusable code that is used to perform a single, related action.
    - Functions help in breaking the program into smaller and modular chunks, making the code easier to understand, debug, and maintain.
