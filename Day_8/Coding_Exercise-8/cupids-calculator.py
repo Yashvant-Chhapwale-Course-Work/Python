@@ -66,7 +66,7 @@ def calculate_love_score(partner_1,partner_2):
         if char in ['L','O','V','E']:
             match_percent += 1
 
-    print(match_percent)
+    print(f"Your Match Percentage is {match_percent}.")
     if match_percent > 70 :
         print("You Were Meant To Be Soulmates!")
     elif 50 < match_percent < 70 :
