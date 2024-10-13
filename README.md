@@ -344,7 +344,7 @@ glass2 = "juice"
    
 ---
 
-## Day 5
+## Day 6
 ### Coding_Exercise-5
  - Write A Program to create a `FizzBuzz-Game` which prints `Fizz` if number is divisible by 3, `Bizz` if number is divisible by 5 & `FizzBuzz` if number is divisible by both 3 and 5.
 ### Day-5_Project
@@ -408,7 +408,7 @@ glass2 = "juice"
 
 ---
 
-## Day 3
+## Day 7
 ### Coding_Exercise-5
  - In the `BMI-calculator` add an `if-elif-else` block which if `bmi < 18` prints `Underweight!` , if `bmi >= 18 and bmi <25` prints `Healthy!`, else `bmi > 25` prints `Overweight!`.
 ### Day-3_Project
