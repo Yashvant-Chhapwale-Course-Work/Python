@@ -17,7 +17,7 @@ A Record Of Assignments Under Python Course Work From Udemy.
 | 3. **Day 3 : : `if-elif-else` Statements**                                                                                                                             | >> [CHECK CONTENT](#day-3)                 |
 | 4. **Day 4 : : `Loops` with Python**                                                                                                                                   | >> [CHECK CONTENT](#day-4)                 |
 | 5. **Day 5 : : Fun with `range()` Function**                                                                                                                           | >> [CHECK CONTENT](#day-5)                 |
-| 6. **Day 6 : : `Built-In Fuctions` & `User-Defined Functions`**                                                                                                        | >> [CHECK CONTENT](#day-6)                 |
+| 6. **Day 6 : : `Python Functions` with `Reeborg Maze Challenge`**                                                                                                        | >> [CHECK CONTENT](#day-6)                 |
 | 6. **Day 7 : : `The Hangman` Game, `Python Modules`**                                                                                                                                    | >> [CHECK CONTENT](#day-7)                 |
 </div>
  
