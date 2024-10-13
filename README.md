@@ -405,7 +405,7 @@ glass2 = "juice"
          # 2 c
          ```
        - `filter()`: Filters elements from an iterable that satisfy a given function.
-        ```
+         ```
          def is_even(n):
              return n % 2 == 0
          
