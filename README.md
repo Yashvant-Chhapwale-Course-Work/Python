@@ -346,7 +346,7 @@ glass2 = "juice"
 
 ## Day 6
 ### Day-6_Project
- - Write A Program for the `Reeborf-Robot`to solve any `Maze`. 
+ - Write A Program for the `Reeborg-Robot`to solve any `Maze`. 
 
 <div align = "center">
  _______________________________________________
