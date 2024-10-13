@@ -346,7 +346,7 @@ glass2 = "juice"
 
 ## Day 6
 ### Day-6_Project
- - Write A Program to create a `Password-Generator` which takes `number-of-letter`, `number-of-digits` & `number-of-symbols` to be included in password, as input from User & genrates a Randomized String as Password, Accordingly. 
+ - Write A Program for the `Reeborf-Robot`to solve any `Maze`. 
 
 <div align = "center">
  _______________________________________________
@@ -356,22 +356,10 @@ glass2 = "juice"
  <h2>Important Concepts</h2>
 </div>
 
- - The `range()` Function in Python is a built-in function that generates a sequence of numbers.<br>
-   It generally takes 3 parameters:
-    - `start` : Defines starting value for the sequence. (included in sequence)
-    -  `stop` : Defines endpoint for the sequence. (excluded from sequence)
-    -  `step` : Defines the amount to increment the value by in the sequence.
-   ```
-   for i in range(10, 0, -2):
-    print(i)
-
-   Output:
-   10
-   8
-   6
-   4
-   2
-   ```
+ - **Reeborg's World:**
+   - `Reeborg's World` is an online platform designed for learning programming and computational thinking through fun and interactive challenges.
+   - It uses a Robot named `Reeborg`, which can be controlled through simple programming commands in Python (or Reeborg’s native language) to solve puzzles.
+   - You can access Reeborg’s World Maze at [Reeborg Maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
  - In Python, the `list()` Function is used to create a list from an iterable (like a string, tuple, or range). It can also be used to create an empty list.
      ```
      my_list = list("hello")
