@@ -437,6 +437,7 @@ glass2 = "juice"
     - Losing:
        - The guesser loses if the entire hangman figure is drawn before they can guess the word.
 <br>
+
  - **Python Modules:**
     - In Python, A `Module` is simply a `Python-File (with a .py extension)` that contains definitions (like functions, classes, or variables) which you can import and use in other Python scripts.
     - A Python Module can be `Built-In` Or `User-Defined`:
