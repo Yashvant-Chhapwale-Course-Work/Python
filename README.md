@@ -419,7 +419,18 @@ glass2 = "juice"
          result = map(lambda x: x * 2, [1, 2, 3])
          print(list(result))  # Output: [2, 4, 6]
          ```
-   
+<div align = "center">
+ _______________________________________________
+</div>
+
+<div align="center">
+ <h2>Resources</h2>
+</div>
+
+- Reeborg's World Maze >> [CLICK HERE](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
+- Learn More About Reeborg's World >>
+- Reeborg's Maze Solution >> [CLICK HERE](https://github.com/Yashvant-Chhapwale-Course-Work/Python/blob/main/Day_6/Day-6_Project/reeborg-maze.py)
+  
 ---
 
 ## Day 7
