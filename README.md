@@ -18,7 +18,7 @@ A Record Of Assignments Under Python Course Work From Udemy.
 | 4. **Day 4 : : `Loops` with Python**                                                                                                                                   | >> [CHECK CONTENT](#day-4)                 |
 | 5. **Day 5 : : Fun with `range()` Function**                                                                                                                           | >> [CHECK CONTENT](#day-5)                 |
 | 6. **Day 6 : : `Python Functions` with `Reeborg Maze Challenge`**                                                                                                      | >> [CHECK CONTENT](#day-6)                 |
-| 7. **Day 7 : : `The Hangman` Game, `Python Modules`**                                                                                                                  | >> [CHECK CONTENT](#day-7)                 |
+| 7. **Day 7 : : `Python Modules`, `The Hangman` Game**                                                                                                                  | >> [CHECK CONTENT](#day-7)                 |
 </div>
  
 ---
