@@ -14,10 +14,11 @@ A Record Of Assignments Under Python Course Work From Udemy.
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | 1. **Day 1 : : Introduction to Python with `print()` Function**                                                                                                        | >> [CHECK CONTENT](#day-1)                 |
 | 2. **Day 2 : : An Overview On Data Types, Type Casting in Python with<br> `int()`, `float()` & `str()` Function, Using `input()` Function <br>   To Take User Inputs** | >> [CHECK CONTENT](#day-2)                 |     
-| 3. **Day 3 : : `if-elif-else` Statements**                                                                                                                            | >> [CHECK CONTENT](#day-3)                 |
+| 3. **Day 3 : : `if-elif-else` Statements**                                                                                                                             | >> [CHECK CONTENT](#day-3)                 |
 | 4. **Day 4 : : `Loops` with Python**                                                                                                                                   | >> [CHECK CONTENT](#day-4)                 |
 | 5. **Day 5 : : Fun with `range()` Function**                                                                                                                           | >> [CHECK CONTENT](#day-5)                 |
-| 6. **Day 6 : : Introduction to Python with `print()` Function**                                                                                                        | >> [CHECK CONTENT](#day-6)                 |
+| 6. **Day 6 : : `Built-In Fuctions` & `User-Defined Functions`**                                                                                                        | >> [CHECK CONTENT](#day-6)                 |
+| 6. **Day 7 : : `The Hangman` Game**                                                                                                                                    | >> [CHECK CONTENT](#day-7)                 |
 </div>
  
 ---
@@ -342,3 +343,137 @@ glass2 = "juice"
        ```
    
 ---
+
+## Day 5
+### Coding_Exercise-5
+ - Write A Program to create a `FizzBuzz-Game` which prints `Fizz` if number is divisible by 3, `Bizz` if number is divisible by 5 & `FizzBuzz` if number is divisible by both 3 and 5.
+### Day-5_Project
+ - Write A Program to create a `Password-Generator` which takes `number-of-letter`, `number-of-digits` & `number-of-symbols` to be included in password, as input from User & genrates a Randomized String as Password, Accordingly. 
+
+<div align = "center">
+ _______________________________________________
+</div>
+
+<div align="center">
+ <h2>Important Concepts</h2>
+</div>
+
+ - The `range()` Function in Python is a built-in function that generates a sequence of numbers.<br>
+   It generally takes 3 parameters:
+    - `start` : Defines starting value for the sequence. (included in sequence)
+    -  `stop` : Defines endpoint for the sequence. (excluded from sequence)
+    -  `step` : Defines the amount to increment the value by in the sequence.
+   ```
+   for i in range(10, 0, -2):
+    print(i)
+
+   Output:
+   10
+   8
+   6
+   4
+   2
+   ```
+ - In Python, the `list()` Function is used to create a list from an iterable (like a string, tuple, or range). It can also be used to create an empty list.
+     ```
+     my_list = list("hello")
+     print(my_list)  # Output: ['h', 'e', 'l', 'l', 'o']
+     ```
+ - The `string` module in Python provides a variety of functions and constants that are useful for string manipulation.
+    - `string.ascii_letters`: A string containing all ASCII letters (both lowercase and uppercase).
+      ```
+      import string
+      print(string.ascii_letters)  # Output: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+      ```
+    - `string.ascii_lowercase`: A string of all lowercase ASCII letters.
+      ```
+      import string
+      print(string.ascii_lowercase)  # Output: 'abcdefghijklmnopqrstuvwxyz'
+      ```
+    - `string.ascii_uppercase`: A string of all uppercase ASCII letters. 
+      ```
+      import string
+      print(string.ascii_uppercase)  # Output: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+      ```
+    - `string.digits`: A string of digit characters (0-9).
+      ```
+      import string
+      print(string.digits)  # Output: '0123456789'
+      ```
+     - `string.punctuation`: A string of all punctuation characters.
+       ```
+       import string
+       print(string.punctuation)  # Output: '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
+       ```
+
+---
+
+## Day 3
+### Coding_Exercise-5
+ - In the `BMI-calculator` add an `if-elif-else` block which if `bmi < 18` prints `Underweight!` , if `bmi >= 18 and bmi <25` prints `Healthy!`, else `bmi > 25` prints `Overweight!`.
+### Day-3_Project
+ - Write A Program to create a `Treasure-Hunter-Game`.
+
+<div align = "center">
+ _______________________________________________
+</div>
+
+<div align="center">
+ <h2>Important Concepts</h2>
+</div>
+
+ - In Python, The `if`, `elif`, and `else` Statements are used for Conditional Execution of Code Blocks.
+   ```
+   Syntax:
+   if condition1:
+    # Code to execute if condition1 is True
+   elif condition2:
+    # Code to execute if condition2 is True
+   else:
+    # Code to execute if neither condition1 nor condition2 is True
+   ```
+ - `Nested if-elif-else` Statements in Python allow you to Check Multiple Conditions at Different Levels.
+   ```
+   Syntax:
+   if condition1:
+    # Code block for condition1
+    if nested_condition1:
+      # Code block for nested_condition1
+    elif nested_condition2:
+      # Code block for nested_condition2
+    else:
+      # Code block if nested_condition1 and nested_condition2 are false
+   elif condition2:
+    # Code block for condition2
+   else:
+    # Code block if all previous conditions are false
+   ```
+ - In Python, `"\n"` is a Special Escape Sequence that represents a Newline Character.
+ - In Python, `"\"` can be used to Ignore any `'` or `"` within a String.
+ - In Python, Triple Quotes (`'''` or `"""`) are used to create Multiline Strings.
+ - `capitalize()` : Capitalizes the first character of the string and makes all other characters lowercase.
+   ```
+   text = "hello world!"
+   capitalized_text = text.capitalize()
+   print(capitalized_text)  # Output: "Hello world!"
+   ``` 
+- `upper()` : Converts all characters in the string to uppercase.
+   ```
+   text = "hello world!"
+   uppercase_text = text.upper()
+   print(uppercase_text)  # Output: "HELLO WORLD!"
+   ```
+- `lower()` : Converts all characters in the string to lowercase.
+  ```
+   text = "HELLO WORLD!"
+   lowercase_text = text.lower()
+   print(lowercase_text)  # Output: "hello world!"
+   ```
+- `title()` : Capitalizes the first letter of each word in the string.
+   ```
+   text = "hello world!"
+   title_text = text.title()
+   print(title_text)  # Output: "Hello World!"
+   ```
+   
+--- 
