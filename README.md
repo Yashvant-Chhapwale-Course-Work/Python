@@ -409,10 +409,8 @@ glass2 = "juice"
 ---
 
 ## Day 7
-### Coding_Exercise-5
- - In the `BMI-calculator` add an `if-elif-else` block which if `bmi < 18` prints `Underweight!` , if `bmi >= 18 and bmi <25` prints `Healthy!`, else `bmi > 25` prints `Overweight!`.
-### Day-3_Project
- - Write A Program to create a `Treasure-Hunter-Game`.
+### Day-7_Project
+ - Write A Program to create The `Hangman-Game`.
 
 <div align = "center">
  _______________________________________________
