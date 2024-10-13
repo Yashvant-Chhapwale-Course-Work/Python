@@ -360,38 +360,64 @@ glass2 = "juice"
    - `Reeborg's World` is an online platform designed for learning programming and computational thinking through fun and interactive challenges.
    - It uses a Robot named `Reeborg`, which can be controlled through simple programming commands in Python (or Reeborg’s native language) to solve puzzles.
    - You can access Reeborg’s World Maze at [Reeborg Maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
- - In Python, the `list()` Function is used to create a list from an iterable (like a string, tuple, or range). It can also be used to create an empty list.
+<br>
+ - **Python Functions:**
+   - A function in Python is a block of organized, reusable code that is used to perform a single, related action.
+   - Functions help in breaking the program into smaller and modular chunks, making the code easier to understand, debug, and maintain.
      ```
-     my_list = list("hello")
-     print(my_list)  # Output: ['h', 'e', 'l', 'l', 'o']
-     ```
- - The `string` module in Python provides a variety of functions and constants that are useful for string manipulation.
-    - `string.ascii_letters`: A string containing all ASCII letters (both lowercase and uppercase).
-      ```
-      import string
-      print(string.ascii_letters)  # Output: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
-      ```
-    - `string.ascii_lowercase`: A string of all lowercase ASCII letters.
-      ```
-      import string
-      print(string.ascii_lowercase)  # Output: 'abcdefghijklmnopqrstuvwxyz'
-      ```
-    - `string.ascii_uppercase`: A string of all uppercase ASCII letters. 
-      ```
-      import string
-      print(string.ascii_uppercase)  # Output: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-      ```
-    - `string.digits`: A string of digit characters (0-9).
-      ```
-      import string
-      print(string.digits)  # Output: '0123456789'
-      ```
-     - `string.punctuation`: A string of all punctuation characters.
-       ```
-       import string
-       print(string.punctuation)  # Output: '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
-       ```
+     Syntax:
 
+     def <function_name>(parameters):
+         # Function body
+         # Code to be executed
+     return result
+     ```
+   - You can execute a Function in Python by calling it using the <function_name>.
+     ```
+     <function_name)(parameter_values)
+     ```
+   - Python also provides `Built-In Functions` such as:
+     - I/O Functions:
+       - `print()`: Outputs data to the console.
+       - `input()`: Accepts input from the user.
+     - Type-Conversion Functions:
+       - `int()`: Converts a value to an integer.
+       - `float()`: Converts a value to a floating-point number.
+       - `str()`: Converts a value to a string.
+       - `list()`: Converts an iterable to a list.
+       - `dict()`: Converts a sequence of key-value pairs into a dictionary.
+     - Mathematical Functions:
+       - `abs()`: Returns the absolute value of a number.
+       - `min()`: Returns the smallest item in an iterable or the smallest of two or more arguments.
+       - `max()`: Returns the largest item in an iterable or the largest of two or more arguments.
+       - `sum()`: Returns the sum of all items in an iterable.
+       - `pow()`: Returns the value of x raised to the power y (i.e., x ** y).
+       - `round()`: Rounds a number to a given precision.
+     - Iterating and Enumerating Functions:
+       - `range()`: Returns a sequence of numbers, typically used for loops.
+       - `enumerate()`: Returns an iterator that produces index-value pairs from a sequence.
+         ```
+         for index, value in enumerate(["a", "b", "c"]):
+             print(index, value)
+         # Output: 
+         # 0 a
+         # 1 b
+         # 2 c
+         ```
+       - `filter()`: Filters elements from an iterable that satisfy a given function.
+        ```
+         def is_even(n):
+             return n % 2 == 0
+         
+         result = filter(is_even, [1, 2, 3, 4])
+         print(list(result))  # Output: [2, 4]
+         ```
+       - `map()`: Applies a function to every item in an iterable and returns an iterator.
+         ```
+         result = map(lambda x: x * 2, [1, 2, 3])
+         print(list(result))  # Output: [2, 4, 6]
+         ```
+   
 ---
 
 ## Day 7
