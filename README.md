@@ -423,24 +423,22 @@ glass2 = "juice"
  - What is the `Hangman-Game`?
     - Hangman is a classic word-guessing game that has been enjoyed by players of all ages.
     - The objective is to guess a hidden word, one letter at a time, before a "man" is fully drawn hanging from a noose.
-    -  The game is both educational and entertaining, often used to improve vocabulary and spelling skills.
- - `Nested if-elif-else` Statements in Python allow you to Check Multiple Conditions at Different Levels.
-   ```
-   Syntax:
-   if condition1:
-    # Code block for condition1
-    if nested_condition1:
-      # Code block for nested_condition1
-    elif nested_condition2:
-      # Code block for nested_condition2
-    else:
-      # Code block if nested_condition1 and nested_condition2 are false
-   elif condition2:
-    # Code block for condition2
-   else:
-    # Code block if all previous conditions are false
-   ```
- - In Python, `"\n"` is a Special Escape Sequence that represents a Newline Character.
+    - The game is both educational and entertaining, often used to improve vocabulary and spelling skills.
+ - **GamePlay Mchanics:**
+    - Word Selection:
+       - One player (or the computer) selects a word or phrase, keeping it hidden from the guesser.
+       - The number of blanks or dashes represents the number of letters in the word.
+    - Guessing::
+       - The other player guesses one letter at a time, trying to figure out the hidden word.
+       - If the letter is correct, it is revealed in its appropriate place(s) in the word.
+       - If the letter is incorrect, a part of the hangman figure (typically a head, body, arms, and legs) is drawn on the gallows.
+    - Winning:
+       - The guesser wins if they can figure out the entire word before the hangman figure is completely drawn.
+    - Losing:
+       - The guesser loses if the entire hangman figure is drawn before they can guess the word. 
+ - **Python Modules:**
+    - In Python, A `Module` is simply a `Python-File (with a .py extension)` that contains definitions (like functions, classes, or variables) which you can import and use in other Python scripts.
+    - 
  - In Python, `"\"` can be used to Ignore any `'` or `"` within a String.
  - In Python, Triple Quotes (`'''` or `"""`) are used to create Multiline Strings.
  - `capitalize()` : Capitalizes the first character of the string and makes all other characters lowercase.
