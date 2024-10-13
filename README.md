@@ -360,7 +360,7 @@ glass2 = "juice"
    - `Reeborg's World` is an online platform designed for learning programming and computational thinking through fun and interactive challenges.
    - It uses a Robot named `Reeborg`, which can be controlled through simple programming commands in Python (or Reeborg’s native language) to solve puzzles.
    - You can access Reeborg’s World Maze at [Reeborg Maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
-   - Solution For Maze is given in [Day_6 Project]()
+   - Solution For Maze is given in [Day-6 Project](https://github.com/Yashvant-Chhapwale-Course-Work/Python/blob/main/Day_6/Day-6_Project/reeborg-maze.py). Copy this Code into the Reeborg's-Python-Terminal and Observe as the Robot solves The Maze from Different Starting Points.
 <br>
 
  - **Python Functions:**
