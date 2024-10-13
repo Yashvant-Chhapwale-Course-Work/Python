@@ -18,7 +18,7 @@ A Record Of Assignments Under Python Course Work From Udemy.
 | 4. **Day 4 : : `Loops` with Python**                                                                                                                                   | >> [CHECK CONTENT](#day-4)                 |
 | 5. **Day 5 : : Fun with `range()` Function**                                                                                                                           | >> [CHECK CONTENT](#day-5)                 |
 | 6. **Day 6 : : `Built-In Fuctions` & `User-Defined Functions`**                                                                                                        | >> [CHECK CONTENT](#day-6)                 |
-| 6. **Day 7 : : `The Hangman` Game**                                                                                                                                    | >> [CHECK CONTENT](#day-7)                 |
+| 6. **Day 7 : : `The Hangman` Game, `Python Modules`**                                                                                                                                    | >> [CHECK CONTENT](#day-7)                 |
 </div>
  
 ---
@@ -435,35 +435,106 @@ glass2 = "juice"
     - Winning:
        - The guesser wins if they can figure out the entire word before the hangman figure is completely drawn.
     - Losing:
-       - The guesser loses if the entire hangman figure is drawn before they can guess the word. 
+       - The guesser loses if the entire hangman figure is drawn before they can guess the word.
+ ...
  - **Python Modules:**
     - In Python, A `Module` is simply a `Python-File (with a .py extension)` that contains definitions (like functions, classes, or variables) which you can import and use in other Python scripts.
-    - 
- - In Python, `"\"` can be used to Ignore any `'` or `"` within a String.
- - In Python, Triple Quotes (`'''` or `"""`) are used to create Multiline Strings.
- - `capitalize()` : Capitalizes the first character of the string and makes all other characters lowercase.
-   ```
-   text = "hello world!"
-   capitalized_text = text.capitalize()
-   print(capitalized_text)  # Output: "Hello world!"
-   ``` 
-- `upper()` : Converts all characters in the string to uppercase.
-   ```
-   text = "hello world!"
-   uppercase_text = text.upper()
-   print(uppercase_text)  # Output: "HELLO WORLD!"
-   ```
-- `lower()` : Converts all characters in the string to lowercase.
-  ```
-   text = "HELLO WORLD!"
-   lowercase_text = text.lower()
-   print(lowercase_text)  # Output: "hello world!"
-   ```
-- `title()` : Capitalizes the first letter of each word in the string.
-   ```
-   text = "hello world!"
-   title_text = text.title()
-   print(title_text)  # Output: "Hello World!"
-   ```
+    - A Python Module can be `Built-In` Or `User-Defined`:
+      - `Built-In Modules`:
+         - Built-in Modules are pre-installed with Python and come as part of the Python-Standard-Library.
+         - These modules provide ready-to-use functions, classes, and variables that cover common programming needs like mathematical operations, system operations, handling files, and much more.
+         - Examples:
+            - `math`: This Module provides `mathematical functions` like sqrt, sin, cos, etc.
+              ```
+              import math
+              
+              print(math.sqrt(16))  # Output: 4.0
+              ```
+            - `os`: This Module allows Python to `interact with the Operating System`, providing functions for file and directory management, environment variables, and more.
+              ```
+              import os
+
+              # Get the current working directory
+              current_directory = os.getcwd()
+              print("Current Working Directory:", current_directory)
+
+              # List files and directories in the current directory
+              items = os.listdir()
+              print("Files and Directories:", items)
+
+              # Create a new directory
+              os.mkdir("test_directory")
+              
+              # Remove the created directory
+              os.rmdir("test_directory")
+              ```
+            - `random`: Used to `Generate Random Numbers and Selections`.
+              ```
+              import random
+              
+              print(random.randint(1, 10))  # Output: Random number between 1 and 10
+              ```
+            - `sys`: Gives `Access to System-Specific Parameters and Functions` (e.g., command-line arguments).
+              ```
+              import sys
+
+              # Exit the program with a custom message
+              print("Exiting program...")
+              sys.exit(0)  # 0 indicates a clean exit
+
+              # Add a new directory to the module search path
+              sys.path.append("/path/to/directory")
+
+              # Show the current module search paths
+              print("Current sys.path:", sys.path
+              ```
+            - `datetime`: Handles `Date and Time Manipulation`.
+              ```
+              import datetime
+
+              # Get the current date and time
+              now = datetime.now()
+              print("Current Date and Time:", now)
+
+              # Define two dates
+              date1 = datetime(2023, 1, 1)
+              date2 = datetime(2024, 1, 1)
+
+              # Calculate the difference between the two dates
+              difference = date2 - date1
+              print("Difference:", difference.days, "days")
+
+              # Get the current date and time
+              now = datetime.now()
+              
+              # Add 10 days to the current date
+              future_date = now + timedelta(days=10)
+              print("Future Date:", future_date)
+              
+              # Subtract 5 hours from the current time
+              past_time = now - timedelta(hours=5)
+              print("Past Time:", past_time)
+              ```
+      - `User-Defined Modules`:
+         - User-defined modules are custom Python files created by the user, containing specific code like functions, classes, or variables that can be reused across different programs.
+ - **Importing A Python Module:**
+   - In Python, You can Import A Module using the `import` Keyword.
+     ```
+     import <module_name>
+     ```
+   - Importing Specific Functions/Classes:<br>
+     Instead of importing the entire module, you can import specific functions or classes directly.
+     ```
+     from <module_name> import <function_name>, <class_name>
+     ```
+   - Importing a Module with an Alias:<br>
+     You can also assign an `alias` to a Module to shorten the name you use in your code.
+     ```
+     import <module_name> as <alias>
+     ```
+   - Importing Everything from a Module:<br>
+     ```
+     from <module_name> import *
+     ```
    
 --- 
