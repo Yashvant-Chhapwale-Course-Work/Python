@@ -428,7 +428,7 @@ glass2 = "juice"
 </div>
 
 - Reeborg's World Maze >> [CLICK HERE](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
-- Learn More About Reeborg's World >>
+- Learn More About Reeborg's World >> [CLICK HERE](https://reeborg.ca/docs/en/reference/tour.html)
 - Reeborg's Maze Solution >> [CLICK HERE](https://github.com/Yashvant-Chhapwale-Course-Work/Python/blob/main/Day_6/Day-6_Project/reeborg-maze.py)
   
 ---
