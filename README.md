@@ -19,7 +19,7 @@ A Record Of Assignments Under Python Course Work From Udemy.
 | 5. **Day 5 : : Fun with `range()` Function**                                                                                                                           | >> [CHECK CONTENT](#day-5)                 |
 | 6. **Day 6 : : `Python Functions` with `Reeborg Maze Challenge`**                                                                                                      | >> [CHECK CONTENT](#day-6)                 |
 | 7. **Day 7 : : `Python Modules`, `The Hangman` Game**                                                                                                                  | >> [CHECK CONTENT](#day-7)                 |
-| 8. **Day 8 : : `Python Modules`, `The Hangman` Game**                                                                                                                  | >> [CHECK CONTENT](#day-8)                 |
+| 8. **Day 8 : : `Parameterized Functions`, Implementing `Caesar Cipher`**                                                                                               | >> [CHECK CONTENT](#day-8)                 |
 </div>
  
 ---
@@ -567,7 +567,11 @@ glass2 = "juice"
 --- 
 
 ## Day 8
-### Day-7_Project
+### Coding_Exercise-7
+ - Write A Program to create a `life-in-weeks Calculator` which returns the number of weeks or years a person has left assuming that the maximum life expectancy of a person is 100 years. (**Note:** 1 year = 52 weeks)
+### Coding_Exercise-8
+ - Write A Program to create a `FizzBuzz-Game` which prints `Fizz` if number is divisible by 3, `Bizz` if number is divisible by 5 & `FizzBuzz` if number is divisible by both 3 and 5.
+### Day-8_Project
  - Write A Program to create The `Hangman-Game`.
 
 <div align = "center">
