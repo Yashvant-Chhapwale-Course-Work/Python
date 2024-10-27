@@ -570,9 +570,9 @@ glass2 = "juice"
 ### Coding_Exercise-7
  - Write A Program to create a `life-in-weeks Calculator` which returns the number of weeks or years a person has left assuming that the maximum life expectancy of a person is 100 years. (**Note:** 1 year = 52 weeks)
 ### Coding_Exercise-8
- - Write A Program to create a `FizzBuzz-Game` which prints `Fizz` if number is divisible by 3, `Bizz` if number is divisible by 5 & `FizzBuzz` if number is divisible by both 3 and 5.
+ - Write A Program to create a `Cupid's Calculator` which calculates the match percentage for a couple. (Use any appropriate logic for the calculator function which must accept two strings as Input.)
 ### Day-8_Project
- - Write A Program to create The `Hangman-Game`.
+ - Write A Program to implement The `Caesar-Cipher`.
 
 <div align = "center">
  _______________________________________________
@@ -582,10 +582,19 @@ glass2 = "juice"
  <h2>Important Concepts</h2>
 </div>
 
- - What is the `Hangman-Game`?
-    - Hangman is a classic word-guessing game that has been enjoyed by players of all ages.
-    - The objective is to guess a hidden word, one letter at a time, before a "man" is fully drawn hanging from a noose.
-    - The game is both educational and entertaining, often used to improve vocabulary and spelling skills.
+ - What is the `Caesar-Cipher`?
+    - The **Caesar Cipher** is a basic encryption technique where each letter in a message is shifted by a fixed number of positions in the alphabet. 
+    - In a Caesar Cipher, each letter in the plaintext is shifted right (or left) by a specific number, known as the **key** or shift.
+    - This **key** or shift is used for both encoding and decoding.
+      - `Encryption`: Shift each letter in the plaintext forward by the key.
+      - `Decryption`: Shift each letter in the ciphertext backward by the key.
+    - For example, with a shift of 3 **(Key = 3)**:
+      - A becomes D
+      - B becomes E
+      - C becomes F
+      - And so on . . .
+    
+
  - **GamePlay Mchanics:**
     - Word Selection:
        - One player (or the computer) selects a word or phrase, keeping it hidden from the guesser.
@@ -600,7 +609,7 @@ glass2 = "juice"
        - The guesser loses if the entire hangman figure is drawn before they can guess the word.
 <br>
 
- - **Python Modules:**
+ - **Parameterized Function:**
     - In Python, A `Module` is simply a `Python-File (with a .py extension)` that contains definitions (like functions, classes, or variables) which you can import and use in other Python scripts.
     - A Python Module can be `Built-In` Or `User-Defined`:
       - `Built-In Modules`:
