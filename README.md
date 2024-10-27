@@ -377,7 +377,7 @@ glass2 = "juice"
      ```
    - You can execute a Function in Python by calling it using the <function_name>.
      ```
-     <function_name)(parameter_values)
+     <function_name>(parameter_values)
      ```
    - Python also provides `Built-In Functions` such as:
      - I/O Functions:
