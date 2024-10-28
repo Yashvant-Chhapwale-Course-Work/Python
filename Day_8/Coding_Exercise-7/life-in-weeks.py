@@ -27,7 +27,7 @@ print(r'''
 age = int(input("Enter Your Age:"))
 print(" ")
 
-def life_in_weeks(age):
+def life_in_weeks(age):                              #This Function Takes A Single Integer As Input
     years_left = 100 - age
     weeks_left = years_left * 52    #1 Year = 52 Weeks
     print(f"You have {weeks_left} Weeks left i.e {years_left} more Years !")

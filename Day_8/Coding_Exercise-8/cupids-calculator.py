@@ -53,7 +53,7 @@ partner_1 = str(input("Enter Name Of The First Individual In The Couple:\n"))
 partner_2 = str(input("Enter Name Of The Second Individual In The Couple:\n"))
 print(" ")
 
-def calculate_love_score(partner_1,partner_2):
+def calculate_love_score(partner_1,partner_2):                    #This Function Takes Takes Two Strings As Input
     match_percent = 0
     couple_name = (partner_1 + partner_2).upper()
     for char in couple_name:
