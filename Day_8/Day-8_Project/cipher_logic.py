@@ -35,7 +35,7 @@ def caesar_cipher(text_input,shift,action_input):
         transformed_text += symbols[shift_in_position]
 
       else:
-        transformed_text += lette
+        transformed_text += letter
 
 
     print(f"{action_input.capitalize()}d Result: {transformed_text}")      
