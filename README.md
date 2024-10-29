@@ -61,6 +61,13 @@ glass2 = "juice"
  - The `" "` or `' '` are used for indicating the `String` Data Type.
  - The `+` Operator can be used for `Concatenation` of two or more Strings.
  - In Python, `Variables` are used to Store Data Values. They Act as Containers for Information that you can Use and Manipulate throughout your Program.
+ - You can pass the value of variables inside the print function by using `F-strings`:<br>
+   - `F-Strings` or `Formatted String Literals` are one of the most popular ways to include variables directly inside strings in Python.
+   - An F-String is denoted with a `f` symbol at the start of a string.
+     ```
+     user = "Yashvant"
+     print(f"Hi! My name is {user}.")
+     ```
 
 ---
 
