@@ -610,6 +610,17 @@ glass2 = "juice"
           # Function Body: 'Code To Execute'
           return value   # Optional return statement
        ```
-        
-   
+ - **Name Shadowing:**
+    - `Name Shadowing` or `Variable Shadowing` occurs when a variable in a particular scope (like within a function or class) has the same name as a variable in an outer scope, "shadowing" or hiding the outer variable.
+      ```
+      x = 10  # Global variable
+
+      def example():
+          x = 5     # Local variable, shadows the global `x`.
+          print(x)  # Prints 5, not the global `x` (10).
+
+      example()
+      
+      print(x)  # Prints 10, as the global `x` remains unaffected.
+      ```
 --- 
