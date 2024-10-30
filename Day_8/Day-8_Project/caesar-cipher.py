@@ -34,6 +34,7 @@ while restart:
         break
       elif restart_choice.lower() in ['no','n']:
         print("We look forward to your return!")
+        print(" ")
         restart = False
         break
       else:
