@@ -1,4 +1,4 @@
-from character_list import alphabets_capital,alphabets_small,numbers,symbols
+from character_list import alphabets,numbers,symbols
 
 
 def caesar_cipher(text_input,shift,action_input):
@@ -10,17 +10,11 @@ def caesar_cipher(text_input,shift,action_input):
 
 
     for letter in text_input:
-      #Cipher Logic For Small Alphabets:
-      if letter in alphabets_small:
-        shift_in_position = alphabets_small.index(letter) + shift
-        shift_in_position %= len(alphabets_small)     #>>>>>>>> This Expression ensures that the 'shift_in_position' value wraps around if it exceeds the length of the lists, which prevents an 'Index Out Of Range' error.      
-        transformed_text += alphabets_small[shift_in_position] #For Example: The 'alphabets_small[]' list contains 26 letters (like the English alphabet),and the 'shift_in_position' is 28,then it would update 'shift_in_position' to '2' (since 28 % 26 = 2), effectively circling back to the start of the 'alphabets_small[]' list. 
-      
-      #Cipher Logic For Capital Alphabets:
-      elif letter in alphabets_capital:
-        shift_in_position = alphabets_capital.index(letter) + shift
-        shift_in_position %= len(alphabets_capital)                     
-        transformed_text += alphabets_capital[shift_in_position]
+      #Cipher Logic For Alphabets:
+      if letter in alphabets:
+        shift_in_position = alphabets.index(letter) + shift
+        shift_in_position %= len(alphabets)     #>>>>>>>> This Expression ensures that the 'shift_in_position' value wraps around if it exceeds the length of the lists, which prevents an 'Index Out Of Range' error.      
+        transformed_text += alphabets[shift_in_position] #For Example: The 'alphabets_small[]' list contains 26 letters (like the English alphabet),and the 'shift_in_position' is 28,then it would update 'shift_in_position' to '2' (since 28 % 26 = 2), effectively circling back to the start of the 'alphabets_small[]' list. 
 
       #Cipher Logic For Numbers:
       elif letter in numbers:
