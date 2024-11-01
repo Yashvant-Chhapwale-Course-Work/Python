@@ -14,7 +14,7 @@ def caesar_cipher(text_input,shift,action_input):
       if letter in alphabets:
         shift_in_position = alphabets.index(letter) + shift
         shift_in_position %= len(alphabets)     #>>>>>>>> This Expression ensures that the 'shift_in_position' value wraps around if it exceeds the length of the lists, which prevents an 'Index Out Of Range' error.      
-        transformed_text += alphabets[shift_in_position] #For Example: The 'alphabets_small[]' list contains 26 letters (like the English alphabet),and the 'shift_in_position' is 28,then it would update 'shift_in_position' to '2' (since 28 % 26 = 2), effectively circling back to the start of the 'alphabets_small[]' list. 
+        transformed_text += alphabets[shift_in_position] #For Example: The 'alphabets[]' list contains 52 letters (like the English alphabet),and the 'shift_in_position' is 58,then it would update 'shift_in_position' to '6' (since 58 % 52 = 6), effectively circling back to the start of the 'alphabets[]' list. 
 
       #Cipher Logic For Numbers:
       elif letter in numbers:
