@@ -20,6 +20,7 @@ A Record Of Assignments Under Python Course Work From Udemy.
 | 6. **Day 6 : : `Python Functions` with `Reeborg Maze Challenge`**                                                                                                      | >> [CHECK CONTENT](#day-6)                 |
 | 7. **Day 7 : : `Python Modules`, `The Hangman` Game**                                                                                                                  | >> [CHECK CONTENT](#day-7)                 |
 | 8. **Day 8 : : `Parameterized Functions`, Implementing `Caesar Cipher`**                                                                                               | >> [CHECK CONTENT](#day-8)                 |
+| 8. **Day 9 : : `Python Dictionaries`**                                                                                                                                 | >> [CHECK CONTENT](#day-9)                 |
 </div>
  
 ---
@@ -624,3 +625,57 @@ glass2 = "juice"
       print(x)  # Prints 10, as the global `x` remains unaffected.
       ```
 --- 
+
+## Day 9
+### Coding_Exercise-9
+ - Write A Program to create a `Student_Grading_System` which returns the number of weeks or years a person has left assuming that the maximum life expectancy of a person is 100 years. 
+### Coding_Exercise-8
+ - Write A Program to create a `Cupid's Calculator` which calculates the match percentage for a couple. (Use any appropriate logic for the calculator function which must accept two strings as Input.)
+### Day-8_Project
+ - Write A Program to implement The `Caesar-Cipher`.
+
+<div align = "center">
+ _______________________________________________
+</div>
+
+<div align="center">
+ <h2>Important Concepts</h2>
+</div>
+
+ - What is the `Caesar-Cipher`?
+    - The **Caesar Cipher** is a basic encryption technique where each letter in a message is shifted by a fixed number of positions in the alphabet. 
+    - In a Caesar Cipher, each letter in the plaintext is shifted right (or left) by a specific number, known as the **key** or shift.
+    - This **key** or shift is used for both encoding and decoding.
+      - `Encryption`: Shift each letter in the plaintext forward by the key.
+      - `Decryption`: Shift each letter in the ciphertext backward by the key.
+    - For example, with a shift of 3 **(Key = 3)**:
+      - A becomes D
+      - B becomes E
+      - C becomes F
+      - And so on . . .
+<br>
+
+ - **Parameterized Function:**
+    - A `Parameter` is simply a variable in a function definition that accepts `values (arguments)` when the function is called, allowing the function to perform operations based on those inputs.
+    - A Python Function can have single or multiple parameters as shown in the syntax ahead:
+       ```
+       def function_name(parameter1, parameter2, parameter3, ...., parameter n ):
+          # Function Body: 'Code To Execute'
+          return value   # Optional return statement
+       ```
+ - **Name Shadowing:**
+    - `Name Shadowing` or `Variable Shadowing` occurs when a variable in a particular scope (like within a function or class) has the same name as a variable in an outer scope, "shadowing" or hiding the outer variable.
+      ```
+      x = 10  # Global variable
+
+      def example():
+          x = 5     # Local variable, shadows the global `x`.
+          print(x)  # Prints 5, not the global `x` (10).
+
+      example()
+      
+      print(x)  # Prints 10, as the global `x` remains unaffected.
+      ```
+      
+---
+  
