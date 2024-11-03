@@ -106,6 +106,8 @@ while continue_game: #If 'continue_game = True' >> Proceeds Inside Loop ,Else If
             continue_game = True
             break
         elif continue_input.capitalize() in ["No", "N"]:
+            print("Hope To See You Soon!")
+            print("You Achieved A Win Streak Of " + str(win_streak) + " Wins.")
             continue_game = False
             break
         else:
