@@ -1,6 +1,6 @@
 import os
 from gavel_art import display_art
-from auction_winner_logic import highest_bidder
+import auction_winner_logic
 
 auction_record = {}
 
@@ -27,7 +27,8 @@ while True:
     os.system('cls' if os.name == 'nt' else 'clear') #This code removes the previous output in the shell, before prompting for the next bid input.
 print(" ")
 
+#The 'if-else' part ahead is unnecessary for 'highest_bidderv1()' ,it can be directly executed as it handles empty 'bit_dictionary' case internally.But, it is necessary for 'highest_bidderv0()'.
 if len(auction_record) > 0: 
-    highest_bidder(auction_record)
+    auction_winner_logic.highest_bidderv1(auction_record)
 else:
     print("We Hope To See You Soon!")

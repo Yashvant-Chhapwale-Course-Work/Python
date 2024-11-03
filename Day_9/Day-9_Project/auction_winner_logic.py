@@ -1,5 +1,4 @@
-
-def highest_bidder(bidding_dictionary):
+def highest_bidderv0(bidding_dictionary):
     winner = ""
     highest_bid = 0
     tie = []
@@ -20,3 +19,22 @@ def highest_bidder(bidding_dictionary):
             print(f"Bidder: {bidder}")
     else:
         print(f'We are pleased to announce that the Highest Bid is ₹{highest_bid}, submitted by {winner}.')
+
+
+def highest_bidderv1(bidding_dictionary):
+    if not bidding_dictionary:  # Check If The Dictionary Is Empty
+        print("We Hope To See You Soon!")
+        return
+
+    highest_bid = max(bidding_dictionary.values()) #Using 'max()' to find the highest bid value.
+    
+    winners = [bidder for bidder, bid in bidding_dictionary.items() if bid == highest_bid] #Finding all Bidders who placed the highest bid value(Examining for a Tie).
+    
+    if len(winners) > 1:
+        print(f"We have a tie! The following bidders have placed an equal highest bid of ₹{highest_bid}:")
+        for bidder in winners:
+            print(f"Bidder: {bidder}")
+    else:
+        print(f'We are pleased to announce that the highest bid is ₹{highest_bid}, submitted by {winners[0]}.')
+
+
