@@ -19,7 +19,7 @@ A Record Of Assignments Under Python Course Work From Udemy.
 | 5. **Day 5 : : Fun with `range()` Function**                                                                                                                           | >> [CHECK CONTENT](#day-5)                 |
 | 6. **Day 6 : : `Python Functions` with `Reeborg Maze Challenge`**                                                                                                      | >> [CHECK CONTENT](#day-6)                 |
 | 7. **Day 7 : : `Python Modules`, `The Hangman` Game**                                                                                                                  | >> [CHECK CONTENT](#day-7)                 |
-| 8. **Day 8 : : `Parameterized Functions`, `Name Shadowing`, Implementing `Caesar Cipher`**                                                                             | >> [CHECK CONTENT](#day-8)                 |
+| 8. **Day 8 : : `Parameterized Functions`, `Name Shadowing` Phenomenon, Implementing `Caesar Cipher`**                                                                  | >> [CHECK CONTENT](#day-8)                 |
 | 8. **Day 9 : : `Python Dictionaries`, A `Blind Auction System`**                                                                                                       | >> [CHECK CONTENT](#day-9)                 |
 </div>
  
