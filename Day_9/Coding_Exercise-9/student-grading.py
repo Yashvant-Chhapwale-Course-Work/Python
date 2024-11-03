@@ -64,6 +64,6 @@ while continue_grading:
         break
     else:
         print("Invalid Input :// Enter 'Yes' or 'No' ::")
-        start_grading = input("Would you like to begin assessing student grades? (Y/N): ")
+        start_grading = input("Would you like to begin assessing student grades? (Y/N) ")
         
         
