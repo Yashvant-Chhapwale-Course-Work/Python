@@ -20,7 +20,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************''')                                      #The (''') or (""") i.e Triple Quotes can be used to accept Multi-Line String Values.
                                                                                                                          #The 'r' keyword before the Triple Quotes indicates a Raw String, which tells Python to Ignore Escape Sequences within the String.
 print(" ")
-print("Welcome To Treasure Island! Your Mission Is To Find The Legendary Treasure Of The Ancients.")
+print("Welcome To Treasure Island! Your Mission Is To Find The Legendary Treasure Of The Ancients")
 print(" ")
 
 print("On Your Conquest You Arrive At A Cross-Road!")
