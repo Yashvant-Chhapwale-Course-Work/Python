@@ -5,11 +5,13 @@ from auction_winner_logic import highest_bidder
 auction_record = {}
 
 while True:
-
     display_art()
     name = input("Enter Your/Organization's Name: ")
     if name.lower() in ['stop','/s','terminate','/t',' ']:
         break
+    elif name in auction_record :
+        print ("You Have Already Placed Your Bid!")
+        continue
     else:
         bid = input("Bidding Amount: ")
         if bid.lower() in ['stop','/s','terminate','/t',' ']:
