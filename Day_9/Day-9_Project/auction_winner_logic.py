@@ -19,4 +19,4 @@ def highest_bidder(bidding_dictionary):
         for bidder in tie:
             print(f"Bidder: {bidder}")
     else:
-        print(f'We are pleased to announce that the Highest Bid is ₹{highest_bid}, submitted by {winner}')
+        print(f'We are pleased to announce that the Highest Bid is ₹{highest_bid}, submitted by {winner}.')

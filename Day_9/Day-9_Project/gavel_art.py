@@ -16,4 +16,4 @@ def display_art():
 ==========================================================
         +ENTER STOP / TERMINATE TO STOP BIDDING+     
 ''')
-print(" .")
+print(" ")

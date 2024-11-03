@@ -23,4 +23,4 @@ print(" ")
 if len(auction_record) > 0:
     highest_bidder(auction_record)
 else:
-    print("We Hope To See You Soon")
+    print("We Hope To See You Soon!")
