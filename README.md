@@ -628,11 +628,12 @@ glass2 = "juice"
 
 ## Day 9
 ### Coding_Exercise-9
- - Write A Program to create a `Student_Grading_System` which returns the number of weeks or years a person has left assuming that the maximum life expectancy of a person is 100 years. 
-### Coding_Exercise-8
- - Write A Program to create a `Cupid's Calculator` which calculates the match percentage for a couple. (Use any appropriate logic for the calculator function which must accept two strings as Input.)
-### Day-8_Project
- - Write A Program to implement The `Caesar-Cipher`.
+ - Write a program to create a `Student_Grading_System` that assigns grades to students based on the Indian-Education-System. 
+### Day-9_Project
+ - Write A Program to create a `Blind-Auction-System` tailored according to the following rules:
+   - The Next Person should not know the Previous Person's Bid (hence, Blind Auction).
+   - The Bids must be stored in a Dictionary in the form of 'aKey : Value' Pairs of 'Name : Bid'.
+   - The Same Person must not be allowed to place their Bid Again i.e, the Bids must be Immutable.
 
 <div align = "center">
  _______________________________________________
@@ -655,8 +656,8 @@ glass2 = "juice"
       - And so on . . .
 <br>
 
- - **Parameterized Function:**
-    - A `Parameter` is simply a variable in a function definition that accepts `values (arguments)` when the function is called, allowing the function to perform operations based on those inputs.
+ - **Python Dictionary:**
+    - A `Dictionary` is simply a variable in a function definition that accepts `values (arguments)` when the function is called, allowing the function to perform operations based on those inputs.
     - A Python Function can have single or multiple parameters as shown in the syntax ahead:
        ```
        def function_name(parameter1, parameter2, parameter3, ...., parameter n ):
