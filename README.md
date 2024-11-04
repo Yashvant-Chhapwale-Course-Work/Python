@@ -657,13 +657,48 @@ glass2 = "juice"
 <br>
 
  - **Python Dictionary:**
-    - A `Dictionary` is simply a variable in a function definition that accepts `values (arguments)` when the function is called, allowing the function to perform operations based on those inputs.
-    - A Python Function can have single or multiple parameters as shown in the syntax ahead:
+    - A `Dictionary` is a built-in data type that stores data in key-value pairs.
+    - Dictionaries are defined using curly braces `{}`, with each key-value pair separated by a comma `,`.
+    - `Keys` in a dictionary must be unique and are usually of an `Immutable Data Type`, such as strings, numbers, or tuples, while values can be of any data type.
+    - Syntax:
        ```
-       def function_name(parameter1, parameter2, parameter3, ...., parameter n ):
-          # Function Body: 'Code To Execute'
-          return value   # Optional return statement
+       dictionary_name = {
+         key1: value1,
+         key2: value2,
+         ...
+       }
        ```
+    - **`Common Dictionary Operations`:**
+       - Accessing Values:
+         ```
+         dictionary_name[key]
+         ```
+       - Adding/Updating Entries:
+         ```
+         dictionary_name[key] = value
+         ```
+       - Deleting Entries:
+         ```
+         del dictionary_name[key]
+         ```
+       - Checking Existence:
+         ```
+         key in dictionary_name
+         ```
+       - Iteration: You can iterate over keys, values, or key-value pairs:
+         ```
+         #Iterating Keys in Dictionary:
+         for key in dictionary_name: 
+             print(key)
+
+         #Iterating Values in Dictionary:
+         for value in dictionary_namevalues(): 
+             print(value)
+
+         #Iterating Key:Value Pairs in Dictionary:
+         for key, value in dictionary_name.items(): 
+             print(f"{key}:{value}")
+         ```
  - **Name Shadowing:**
     - `Name Shadowing` or `Variable Shadowing` occurs when a variable in a particular scope (like within a function or class) has the same name as a variable in an outer scope, "shadowing" or hiding the outer variable.
       ```
