@@ -643,17 +643,13 @@ glass2 = "juice"
  <h2>Important Concepts</h2>
 </div>
 
- - What is the `Caesar-Cipher`?
-    - The **Caesar Cipher** is a basic encryption technique where each letter in a message is shifted by a fixed number of positions in the alphabet. 
-    - In a Caesar Cipher, each letter in the plaintext is shifted right (or left) by a specific number, known as the **key** or shift.
-    - This **key** or shift is used for both encoding and decoding.
-      - `Encryption`: Shift each letter in the plaintext forward by the key.
-      - `Decryption`: Shift each letter in the ciphertext backward by the key.
-    - For example, with a shift of 3 **(Key = 3)**:
-      - A becomes D
-      - B becomes E
-      - C becomes F
-      - And so on . . .
+ - What is a `Blind-Auction`?
+    - A Blind Auction is a type of auction where bidders submit their bids without knowing the amounts that others have bid.  
+    - `Key Characteristics` of a Blind Auction:
+       - `Sealed Bids`: Each bidder submits a sealed bid that remains confidential until all bids are collected. This prevents bidders from adjusting their bids based on competitors' bids.
+       - `Single Round`: Usually, a blind auction consists of just one bidding round. After submission, bids are revealed, and the highest bid wins.
+       - `No Bid Adjustments`: Bidders cannot change or withdraw their bids after submission, which encourages them to offer their best price right from the start.
+       - `Highest Bidder Wins`: The bidder with the highest bid wins the auction, provided they meet any minimum bid requirements set by the auctioneer.
 <br>
 
  - **Python Dictionary:**
