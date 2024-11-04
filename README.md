@@ -683,15 +683,15 @@ glass2 = "juice"
          ```
        - Iteration: You can iterate over keys, values, or key-value pairs:
          ```
-         #Iterating Keys in Dictionary:
+         #Iterating Over Keys in Dictionary:
          for key in dictionary_name:  
              print(key)
 
-         #Iterating Values in Dictionary:
+         #Iterating Over Values in Dictionary:
          for value in dictionary_name.values(): 
              print(value)
 
-         #Iterating Key:Value Pairs in Dictionary:
+         #Iterating Over Key:Value Pairs in Dictionary:
          for key, value in dictionary_name.items(): 
              print(f"{key}:{value}")
          ```
