@@ -699,7 +699,7 @@ glass2 = "juice"
          for key, value in dictionary_name.items(): 
              print(f"{key}:{value}")
          ```
-    - **`Important Functions`:**
+    - **`Important Dictionary Functions`:**
        
       
 ---
