@@ -688,7 +688,7 @@ glass2 = "juice"
        - Iteration: You can iterate over keys, values, or key-value pairs:
          ```
          #Iterating Keys in Dictionary:
-         for key in dictionary_name: 
+         for key in dictionary_name:  
              print(key)
 
          #Iterating Values in Dictionary:
@@ -700,7 +700,73 @@ glass2 = "juice"
              print(f"{key}:{value}")
          ```
     - **`Important Dictionary Functions`:**
-       
-      
+       - `get(key, default=None)`:<br>
+         Returns the value for a specified key. If the key is not found, it returns the specified default value instead of raising an error.
+         ```
+         student_grades = {"Alice": "A", "Bob": "B+"}
+         print(student_grades.get("Alice"))      # Output: A
+         print(student_grades.get("Charlie", "N/A"))  # Output: N/A
+         ```  
+       - `keys()`:<br>
+         Returns a view object that displays all the keys in the dictionary.
+         ```
+         student_grades = {"Alice": "A", "Bob": "B+"}
+         print(student_grades.keys())  # Output: dict_keys(['Alice', 'Bob'])
+         ```
+      - `values()`:<br>
+         Returns a view object that displays all the values in the dictionary.
+         ```
+         student_grades = {"Alice": "A", "Bob": "B+"}
+         print(student_grades.values())  # Output: dict_values(['A', 'B+'])
+         ```
+      - `items()`:<br>
+         Returns a view object that displays a list of key-value tuples.
+         ```
+         student_grades = {"Alice": "A", "Bob": "B+"}
+         print(student_grades.items())  # Output: dict_items([('Alice', 'A'), ('Bob', 'B+')])
+         ```
+      - `update({new_item})`:<br>
+         Updates the dictionary with the key-value pairs from another dictionary or iterable of pairs.
+         ```
+         student_grades = {"Alice": "A"}
+         student_grades.update({"Bob": "B+"})
+         print(student_grades)  # Output: {'Alice': 'A', 'Bob': 'B+'}
+         ```
+      - `pop(key, default=None)`:<br>
+        Removes the specified key and returns the corresponding value. If the key is not found, it returns the specified default.
+        ```
+        student_grades = {"Alice": "A", "Bob": "B+"}
+        print(student_grades.pop("Alice"))  # Output: A
+        print(student_grades)  # Output: {'Bob': 'B+'}
+        ```
+      - `popitem()`:<br>
+        Removes the specified key and returns the corresponding value. If the key is not found, it returns the specified default.
+        ```
+        student_grades = {"Alice": "A", "Bob": "B+"}
+        print(student_grades.popitem())  # Output: ('Bob', 'B+')
+        print(student_grades)            # Output: {'Alice': 'A'}
+        ```
+      - `clear()`:<br>
+        Removes all items from the dictionary.
+        ```
+        student_grades = {"Alice": "A", "Bob": "B+"}
+        student_grades.clear()
+        print(student_grades)  # Output: {}
+        ```
+     - `copy()`:<br>
+        Returns a shallow copy of the dictionary.
+        ```
+        student_grades = {"Alice": "A", "Bob": "B+"}
+        grades_copy = student_grades.copy()
+        print(grades_copy)  # Output: {'Alice': 'A', 'Bob': 'B+'}
+        ```
+     - `fromkeys(iterable, "value")`:<br>
+        Creates a new dictionary with keys from the given iterable, all set to the specified value.
+        ```
+        keys = ["Alice", "Bob", "Charlie"]
+        new_dict = dict.fromkeys(keys, "A+")
+        print(new_dict)  # Output: {'Alice': 'A+', 'Bob': 'A+', 'Charlie': 'A+'}
+        ```
+     
 ---
   
