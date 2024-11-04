@@ -6,7 +6,7 @@ def arithmetic_calculator():
         This Function prompts the User to Input two numeric values and choose an arithmetic
         operation. Based on the selected operation, it computes the result and displays it to the user.
 
-        The Function Returns "result","var_1","var_2","operator".
+        The Function Returns a List consisting of ["result","var_1","var_2","operator"].
         """
         operator = input("Choose Operation ( * | / | % | ^ | + | - ): ")
 
