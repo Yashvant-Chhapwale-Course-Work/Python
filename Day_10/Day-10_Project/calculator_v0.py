@@ -5,38 +5,40 @@ def arithmetic_calculator():
 
         This Function prompts the User to Input two numeric values and choose an arithmetic
         operation. Based on the selected operation, it computes the result and displays it to the user.
+
+        The Function Returns "result","var_1","var_2","operator".
         """
-        operation = input("Choose Operation ( * | / | % | ^ | + | - ): ")
+        operator = input("Choose Operation ( * | / | % | ^ | + | - ): ")
 
         while True:
-            if operation in ['*', '/', '%', '^', '+', '-']:
+            if operator in ['*', '/', '%', '^', '+', '-']:
                 var_1 = int(input('Enter The First Operand: '))
                 var_2 = int(input('Enter The Second Operand: '))
                 break
             else:
                 print("Not A Valid Input :// Please Try Again : :")
-                operation = input("Choose Operation ( * | / | % | ^ | + | - ): ")
+                operator = input("Choose Operation ( * | / | % | ^ | + | - ): ")
 
         result = 0
-        if operation == '*':
+        if operator == '*':
             result = var_1 * var_2
-        elif operation == '/':
+        elif operator == '/':
             if var_2 == 0:
                 print('Division By 0 is Prohibited!')
             else:
                 result = var_1 / var_2
-        elif operation == '%':
+        elif operator == '%':
             if var_2 == 0:
                 print('Division By 0 is Prohibited!')
             else:
                 result = var_1 % var_2
-        elif operation == '^':
+        elif operator == '^':
             result = pow(var_1,var_2)
-        elif operation == '+':
+        elif operator == '+':
             result = var_1 + var_2
-        elif operation == '-':
+        elif operator == '-':
             result = var_1 - var_2
-        elif operation == '-':
+        elif operator == '-':
             result = var_1 - var_2
         else:
             result = 0
@@ -44,5 +46,5 @@ def arithmetic_calculator():
         if result == 0:
             return None
         else:
-            output = {"result" : result, "var_1" : var_1, "var_2" : var_2, "operation" : operation}
+            output = {"result" : result, "var_1" : var_1, "var_2" : var_2, "operator" : operator}
             return output

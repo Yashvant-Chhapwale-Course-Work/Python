@@ -28,7 +28,7 @@ while continue_calc:
         print("Operation Unsuccessful!")
         print(" ")
     else:
-        print(f"{res["var_1"]} {res["operation"]} {res["var_2"]} = {res["result"]}")
+        print(f"{res["var_1"]} {res["operator"]} {res["var_2"]} = {res["result"]}")
         print(" ")
 
         continue_op = input("Continue Operations? (Y/N): ")
