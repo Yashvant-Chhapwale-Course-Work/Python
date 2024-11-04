@@ -750,14 +750,14 @@ glass2 = "juice"
         student_grades.clear()
         print(student_grades)  # Output: {}
         ```
-     - `copy()`:<br>
+      - `copy()`:<br>
         Returns a shallow copy of the dictionary.
         ```
         student_grades = {"Alice": "A", "Bob": "B+"}
         grades_copy = student_grades.copy()
         print(grades_copy)  # Output: {'Alice': 'A', 'Bob': 'B+'}
         ```
-     - `fromkeys(iterable, "value")`:<br>
+      - `fromkeys(iterable, "value")`:<br>
         Creates a new dictionary with keys from the given iterable, all set to the specified value.
         ```
         keys = ["Alice", "Bob", "Charlie"]
