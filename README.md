@@ -21,7 +21,7 @@ A Record Of Assignments Under Python Course Work From Udemy.
 | 7.  **Day 7 : : `Python Modules`, `The Hangman` Game**                                                                                                                  | >> [CHECK CONTENT](#day-7)                 |
 | 8.  **Day 8 : : `Parameterized Functions`, `Name Shadowing` Phenomenon, Implementing `Caesar Cipher`**                                                                  | >> [CHECK CONTENT](#day-8)                 |
 | 9.  **Day 9 : : `Python Dictionaries`, A `Blind Auction System`**                                                                                                       | >> [CHECK CONTENT](#day-9)                 |
-| 10. **Day 10 : : `Functions With Return Values`, `Recursion` Phenomenon, `DocStrings`, Designing A `Mathematical Calculator`**                                          | >> [CHECK CONTENT](#day-10)                |
+| 10. **Day 10 : : `Functions With Return Values`, `Recursion` Phenomenon,<br> `DocStrings`, Designing A `Mathematical Calculator`**                                          | >> [CHECK CONTENT](#day-10)                |
 </div>
  
 ---
