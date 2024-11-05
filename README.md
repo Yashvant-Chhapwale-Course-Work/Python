@@ -790,6 +790,10 @@ glass2 = "juice"
            # Code to execute
            return result
        ```
-  
+  - **DocStrings:**
+    - A `Docstring` in Python is a string literal used to document a Function, Method, Class, or Module.
+    - It provides a description of what the `Function or Code Does`, explains its `Parameters`, and notes the `Return Values`.
+    - Docstrings are usually enclosed in triple quotes `(""" ... """)` and are placed right below the Function, Method, Class, or Module Definition.
+    - In Python, A Docstring is generally the `First Line` in a Function, Method, Class, or Module directly following the `def` or `class` line.
          
 ---
