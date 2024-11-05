@@ -629,7 +629,7 @@ glass2 = "juice"
 
 ## Day 9
 ### Coding_Exercise-9
- - Write a program to create a `Student_Grading_System` that assigns grades to students based on the Indian-Education-System. 
+ - Write a program to create a `Student-Grading-System` that assigns grades to students based on the Indian-Education-System. 
 ### Day-9_Project
  - Write A Program to create a `Blind-Auction-System` tailored according to the following rules:
    - The Next Person should not know the Previous Person's Bid (hence, Blind Auction).
@@ -769,7 +769,7 @@ glass2 = "juice"
 
 ## Day 10
 ### Coding_Exercise-10
- - Write a program to create a `Student_Grading_System` that assigns grades to students based on the Indian-Education-System. 
+ - Write a program to estimate whether a Year is a `Leap-Year`. 
 ### Day-10_Project
  - Write A Program to create a `Blind-Auction-System` tailored according to the following rules:
    - The Next Person should not know the Previous Person's Bid (hence, Blind Auction).
