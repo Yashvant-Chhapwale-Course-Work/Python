@@ -1,4 +1,4 @@
-from calculator_v0 import arithmetic_calculator
+from calculator_v1 import arithmetic_calculator
 
 print('''
    _____________________
@@ -28,7 +28,8 @@ while continue_calc:
         print("Operation Unsuccessful!")
         print(" ")
     else:
-        print(f"{res["var_1"]} {res["operator"]} {res["var_2"]} = {res["result"]}")
+        # print(f"{res["var_1"]} {res["operator"]} {res["var_2"]} = {res["result"]}") #For "calculator_v0"
+        print(f"{res["equation"]} = {res["result"]}") #For "calculator_v1"
         print(" ")
 
         continue_op = input("Continue Operations? (Y/N): ")
