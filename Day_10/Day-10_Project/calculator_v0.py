@@ -12,8 +12,8 @@ def arithmetic_calculator():
 
         while True:
             if operator in ['*', '/', '%', '^', '+', '-']:
-                var_1 = int(input('Enter The First Operand: '))
-                var_2 = int(input('Enter The Second Operand: '))
+                var_1 = float(input('Enter The First Operand: '))
+                var_2 = float(input('Enter The Second Operand: '))
                 break
             else:
                 print("Not A Valid Input :// Please Try Again : :")
