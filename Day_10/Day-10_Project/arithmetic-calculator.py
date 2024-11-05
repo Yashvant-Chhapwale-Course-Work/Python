@@ -1,4 +1,4 @@
-from calculator_v0 import arithmetic_calculator
+from calculator_v1 import arithmetic_calculator
 
 print('''
    _____________________
@@ -20,25 +20,40 @@ print('''
 ''')
 
 continue_calc = True
-
+previous_res = None
 while continue_calc:
-    res = arithmetic_calculator()
+    res = arithmetic_calculator(previous_res)
 
-    if res == None:
+    if res["result"] == None:
         print("Operation Unsuccessful!")
         print(" ")
+    elif res["result"] == '@':
+        print("Operation Terminated! Shutting Down. . .")
+        print(" ")
+        break
     else:
-        print(f"{res["var_1"]} {res["operator"]} {res["var_2"]} = {res["result"]}") #For "calculator_v0"
-        # print(f"{res["equation"]} = {res["result"]}") #For "calculator_v1"
+        # print(f"{res["equation"]} = {res["result"]}")                                        #For "calculator_v0"
+        if res["operator"] == "!":                                                             #For "calculator_v1"
+            print(f"{res["variables"][0]}{res["operator"]}  = {res["result"]}") 
+        elif res["operator"] == "fib":
+            ("Obtained Fibonacci Sequence: \n")
+            for num in res["result"]:
+                print(f"{num} ", end = ' ')
+        else:
+            print(f"{res["variables"][0]} {res["operator"]} {res["variables"][1]} = {res["result"]}")
+
         print(" ")
 
+#--------------------------------------------------------------------------------------------------------------------------------------------#
         continue_op = input("Continue Operations? (Y/N): ")
 
         while True:
             if continue_op.lower() in ['y','yes']:
+                previous_res = res["result"]
                 break
             elif continue_op.lower() in ['n','no']:
                 print("We Hope To See You Soon!")
+                print(" ")
                 continue_calc = False
                 break
             else:
