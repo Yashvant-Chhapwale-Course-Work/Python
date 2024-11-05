@@ -635,7 +635,7 @@ glass2 = "juice"
    - The Next Person should not know the Previous Person's Bid (hence, Blind Auction).
    - The Bids must be stored in a Dictionary in the form of 'aKey : Value' Pairs of 'Name : Bid'.
    - The Same Person must not be allowed to place their Bid Again i.e, the Bids must be Immutable.
-
+   
 <div align = "center">
  _______________________________________________
 </div>
@@ -771,10 +771,7 @@ glass2 = "juice"
 ### Coding_Exercise-10
  - Write a program to estimate whether a Year is a `Leap-Year`. 
 ### Day-10_Project
- - Write A Program to create a `Blind-Auction-System` tailored according to the following rules:
-   - The Next Person should not know the Previous Person's Bid (hence, Blind Auction).
-   - The Bids must be stored in a Dictionary in the form of 'aKey : Value' Pairs of 'Name : Bid'.
-   - The Same Person must not be allowed to place their Bid Again i.e, the Bids must be Immutable.
+ - Write A Program to create a simple `Arithmetic-Calculator` which returns a value as result for operations such as `Division`, `Multiplication`, `Addition`, `Subtraction`, `Modulo`, `Power`,etc.
 
 <div align = "center">
  _______________________________________________
