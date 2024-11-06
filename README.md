@@ -806,6 +806,9 @@ glass2 = "juice"
     - It provides a description of what the `Function or Code Does`, explains its `Parameters`, and notes the `Return Values`.
     - Docstrings are usually enclosed in triple quotes `(""" ... """)` and are placed right below the Function, Method, Class, or Module Definition.
     - In Python, A Docstring is generally the `First Line` in a Function, Method, Class, or Module directly following the `def` or `class` line.
+      
+  - **OPython `inspect` Module:**
+    - 
 
   - **Exception Handling in Python:**
     - `Exception Handling` in Python is a way to Manage Errors that occur during Program Execution, allowing the program to Continue Running or to Gracefully Handle Unexpected Situations. 
