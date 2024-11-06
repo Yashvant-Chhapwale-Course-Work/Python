@@ -69,51 +69,54 @@ def arithmetic_calculator(previous_result = None):
     }
     result = 0
 
-    while True:
         
-        while True:
-            operator = input("Choose Operation ( * | / | % | ^ | + | - | ! | fib ) or 'Exit' to Quit: ")
-            if operator.lower() in ['exit','/e','e','quit','/q','q']:
-                result = '@'
-                break
-            elif operator in operation:
-                break
-            else:
-                print("Not A Valid Operation :// Please Try Again : :")
-                print(" ")
-
-        if result == '@':
+    while True: #While Loop For Taking 'Operation_Input'
+        operator = input("Choose Operation ( * | / | % | ^ | + | - | ! | fib ) or 'Exit' to Quit: ")
+        if operator.lower() in ['exit','/e','e','quit','/q','q']:
+            result = '@'
+            break #Exit While Loop for 'Exit' Condition 
+        elif operator in operation: # Exit While Loop for Valid__Operation
             break
+        else:
+            print("Not A Valid Operation :// Please Try Again : :")
+            print(" ")
 
+    if result == '@': #Exit Condition For 'Early_Exit'
+        output = {"result": result, "variables": 0, "operator": 0}
+        return output   
+    else:
+        #Getting List Of Parameters for a specific Operation:
         signature = inspect.signature(operation[operator])
         parameters = signature.parameters
 
+        #Getting Valid Inputs For The Parameters in 'parameters'-------------------------------------------------------------------------------------------------------------------#
         inputs = {}
-        for parameter in parameters:
 
-            while True:
+        for parameter in parameters: #'For' Loop for Iterating the 'parameters' List and taking Inputs for Each Parameter:
+            while True: #Outer 'While' Loop for 'Re-initializing / Re-entering' Operand_Value if 'Invalid_Input' is Triggered
                 if previous_result is not None and parameter == 'Operand_1':
                     var = input(f"Use Previous Result: '{previous_result}' as Operand_1? (Y/N): ")
                     while True:
-                        if var.lower() in ['yes','y']:
-                            if operator == '!':
-                                inputs[parameter] = int(previous_result)
-                            else:
-                                inputs[parameter] = previous_result
-                            break
-                        elif var.lower() in ['no','n']:
-                            var = input(f"Enter {parameter}: ")
-                            if operator == '!':
-                                 value = int(var)
-                            else:
-                                value = float(var)
-                            inputs[parameter] = value
-                            break
+                        if var.lower() in ['yes', 'y']:
+                            # Assign 'previous_result'
+                            inputs[parameter] = int(previous_result) if operator == '!' else previous_result
+                            break  # Exit both inner and outer 'While' loops
+
+                        elif var.lower() in ['no', 'n']:
+                            while True:# Inner-Inner 'While' loop for entering a new valid value
+                                var = input(f"Enter {parameter}: ")
+                                try:
+                                    # Convert Operand_Value based on the Operator_Type
+                                    value = int(var) if operator == '!' else float(var)
+                                    inputs[parameter] = value
+                                    break  # Exit the Inner-Inner 'While' loop after valid input
+                                except ValueError:
+                                    print("Invalid Operand Value :// Please Try Again : : ")
+                            break # Exit the Inner 'While' loop after valid input
                         else:
                             print("Invalid Input :// Please Try Again : : ")
-                            print(" ")
                             var = input(f"Use Previous Result: '{previous_result}' as Operand_1? (Y/N): ")
-                    break                
+                    break # Exit the Outer 'While' Loop after valid 'Operand_1' value              
             
                 var = input(f"Enter {parameter}: ")
                 try:
@@ -122,17 +125,13 @@ def arithmetic_calculator(previous_result = None):
                     else:
                         value = float(var)
                     inputs[parameter] = value
-                    break
+                    break # Exit the Outer 'While' Loop after valid 'Operand_Value' 
                 except ValueError:
                     print("Invalid Operand Value :// Please Try Again : : ")
+        #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
+    result = operation[operator](**inputs)
+    previous_result = result
 
-        result = operation[operator](**inputs)
-        previous_result = result
-        break
-
-    if result == '@':
-        output = {"result": result, "variables": 0, "operator": 0}
-        return output   
-    else:
-        output = {"result": result, "variables": list(inputs.values()), "operator": operator}
-        return output
+    output = {"result": result, "variables": list(inputs.values()), "operator": operator}
+    return output
+        
