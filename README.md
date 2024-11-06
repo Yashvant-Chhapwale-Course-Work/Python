@@ -807,7 +807,7 @@ glass2 = "juice"
     - Docstrings are usually enclosed in triple quotes `(""" ... """)` and are placed right below the Function, Method, Class, or Module Definition.
     - In Python, A Docstring is generally the `First Line` in a Function, Method, Class, or Module directly following the `def` or `class` line.
       
-  - **OPython `inspect` Module:**
+  - **Python `inspect` Module:**
     - 
 
   - **Exception Handling in Python:**
