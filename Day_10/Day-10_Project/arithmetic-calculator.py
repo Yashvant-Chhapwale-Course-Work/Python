@@ -16,35 +16,38 @@ print('''
   | |___|___|___| |___| |
   |_____________________|         
 
-8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8 
+8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8=8 
 ''')
 
 continue_calc = True
 previous_res = None
+
 while continue_calc:
     res = arithmetic_calculator(previous_res)
 
-    if res["result"] == None:
+    if res["result"] == None: #Error Condition
         print("Operation Unsuccessful!")
         print(" ")
-    elif res["result"] == '@':
+    elif res["result"] == '@': #'Exit' Condition
         print("Operation Terminated! Shutting Down. . .")
         print(" ")
         break
-    else:
-        # print(f"{res["equation"]} = {res["result"]}")                                        #For "calculator_v0"
-        if res["operator"] == "!":                                                             #For "calculator_v1"
-            print(f"{res["variables"][0]}{res["operator"]}  = {res["result"]}") 
-        elif res["operator"] == "fib":
+    else: #Displaying Result According To Different Formats For Different Operation Types 
+        # print(f"{res["equation"]} = {res["result"]}")                                                        #For "calculator_v0"
+        if res["operator"] in ["!", "d=>f", "f=>d"]:                                                           #For "calculator_v1"
+            print(f"{res["variables"][0]} {res["operator"]}  = {res["result"]}")  #For Operations With Single Parameters
+        elif res["operator"] in ["sin","cos","tan","sec","cosec","cot"]:
+            print(f"{res["operator"]} {res["variables"][0]}   = {res["result"]}") #For Trigonometric Operations
+        elif res["operator"] == "fib":                                            # For Fibonnaci Sequence (Operations Returning List as Output)
             ("Obtained Fibonacci Sequence: \n")
             for num in res["result"]:
                 print(f"{num} ", end = ' ')
-        else:
+        else:                                                                     #For Other 'General' Operations With Two Parameters
             print(f"{res["variables"][0]} {res["operator"]} {res["variables"][1]} = {res["result"]}")
 
         print(" ")
 
-#--------------------------------------------------------------------------------------------------------------------------------------------#
+#Continue_Operations_Logic(Restart Prompt)-------------------------------------------------------------------------------------------------------------------------------------------#
         continue_op = input("Continue Operations? (Y/N): ")
 
         while True:
