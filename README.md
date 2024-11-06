@@ -791,12 +791,39 @@ glass2 = "juice"
            return result
        ```
   - **Recursion:**
-    - 
+    - `Recursion` is a programming technique where a `Function Calls Itself` to solve a problem.
+    - Example:
+      ```
+      def factorial(n):
+          if n == 0:
+             return 1  # Base case
+          else:
+              return n * factorial(n - 1) # Recursive Case
+      ```
 
   - **DocStrings:**
     - A `Docstring` in Python is a string literal used to document a Function, Method, Class, or Module.
     - It provides a description of what the `Function or Code Does`, explains its `Parameters`, and notes the `Return Values`.
     - Docstrings are usually enclosed in triple quotes `(""" ... """)` and are placed right below the Function, Method, Class, or Module Definition.
     - In Python, A Docstring is generally the `First Line` in a Function, Method, Class, or Module directly following the `def` or `class` line.
+
+  - **Exception Handling in Python:**
+    - `Exception Handling` in Python is a way to Manage Errors that occur during Program Execution, allowing the program to Continue Running or to Gracefully Handle Unexpected Situations. 
+    - This is done using the `try`, `except`, `else`, and `finally` blocks:
+      - `try` block: Contains code that may raise an exception.
+      - `except` blocks: Handles specific Exceptions (ValueError and ZeroDivisionError).You can handle multiple exceptions in a single 'except' block by specifying a `Tuple`.
+      - `else` block: Executes if No Exceptions were raised.
+      - `finally` block: Runs regardless of whether an exception occurred, making it useful for cleanup actions.
+    - Syntax:
+       ```
+      try:
+        # Code that might raise an exception
+      except SomeExceptionType:
+        # Code that runs if the specified exception occurs
+      else:
+        # Code that runs if no exception occurs
+      finally:
+        # Code that always runs, regardless of exceptions
+      ```
          
 ---
