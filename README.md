@@ -825,5 +825,12 @@ glass2 = "juice"
       finally:
         # Code that always runs, regardless of exceptions
       ```
+    - Using a `Bare Except Clause` allows you to catch all exceptions, regardless of their type.
+      ```
+      try:
+        # Code that might raise an exception
+      except Exception as e:   #A 'Bare Exception Clause' with no specific Exception Names or Types.
+        print(f"An unexpected error occurred: {e}")
+      ```
          
 ---
