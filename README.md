@@ -814,8 +814,75 @@ glass2 = "juice"
       import inspect
       ```
     - `Functions` In Inspect Module:
-      - `inspect.signature()` :It retrieves a Signature object, which provides information about the parameters a function takes.
-      - 
+      - `inspect.signature()`: It retrieves a Signature object, which provides information about the parameters a function takes.
+        ```
+        import inspect
+
+        def example_func(a, b=00):
+            print(f"Your Input: {a},{b}")
+
+        sig = inspect.signature(example_func) #Storing Parameter Information in 'sig' variable
+        print(sig)  # Output: (a, b=00)
+        ```
+      - `param.default`: This attribute provides the default value for the parameter.
+      - `param.kind`: This attribute indicates the "kind" of the parameter, specifying how the parameter is expected to be passed in a function call.
+        ```
+        import inspect
+
+        def example_func(b=00):
+            print(f"Your Input: {b}")
+
+        sig = inspect.signature(example)
+        for name, param in sig.parameters.items():
+            print(f"Parameter: {name}, Default: {param.default}, Kind: {param.kind}") # Output: Parameter: b, Default: 10, Kind: POSITIONAL_OR_KEYWORD
+        ```
+      - `inspect.getsource()`: You can retrieve the `Source Code` of a function, class, or method using this Function.
+        ```
+        def sample():
+            print("Hello")
+
+        print(inspect.getsource(sample))
+        # Output:
+        # def sample():
+        #     print("Hello")
+        ```
+      - The inspect module provides several functions to check the type of an object, like `inspect.isfunction()` and `inspect.isclass()`.
+        ```
+        def sample():
+            print("Hello")
+        
+        print(inspect.isfunction(sample))  # Output: True (Sample is a Function)
+        print(inspect.isclass(sample))     # Output: False (Sample is not a Class)
+        ```
+      - `inspect.getmembers()`: This Function can be used to get all `Members` of a class, instance, or module. For example: To List all methods and attributes of an object.
+        ```
+        class Example:
+              def method(self):
+              pass
+
+        print(inspect.getmembers(Example, predicate=inspect.isfunction))
+        # Output: [('method', <function Example.method at 0x000002E27FE094E0>)]
+        ```
+      -  `inspect.getfile()`: This Function can be used for `Locating the File` where a function or class is defined, useful for Large Projects or Debugging.
+        ```
+        print(inspect.getfile(<function_name / element_name>)
+        ```
+      - `inspect.getdoc()` & `inspect.getcomments()`: These Functions can be used to retrieve the `Documentation String(DocString)` and `Comments` associated with an object, respectively.
+        ```
+        def sample():
+            """This is a sample docstring."""
+            print("Hello")
+
+        print(inspect.getdoc(sample))  # Output: This is a sample docstring.
+        ```
+      - `inspect.stack()`: This Function gives you a list of the current call stack frames, allowing you to see how a particular function was reached.
+        ```
+        def test():
+            print(inspect.stack())
+
+        test()
+        ```
+        
 
   - **Exception Handling in Python:**
     - `Exception Handling` in Python is a way to Manage Errors that occur during Program Execution, allowing the program to Continue Running or to Gracefully Handle Unexpected Situations. 
