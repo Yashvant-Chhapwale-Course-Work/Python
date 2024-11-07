@@ -83,6 +83,13 @@ def greatest_common_divisor(Operand_1, Operand_2):
         err = str(e)
         print(f"Error! {err.title()}")
 
+def least_common_multiple(Operand_1, Operand_2):
+    try:
+        return (abs(Operand_1 * Operand_2) / greatest_common_divisor(Operand_1, Operand_2))
+    except Exception as e:
+        err = str(e)
+        print(f"Error! {err.title()}")
+
 def decimal_to_fraction(Decimal_Value):
     try:
         decimal_str = str(Decimal_Value)      # Converting Decimal to a String to Handle Number Of Decimal Places.
@@ -123,7 +130,7 @@ def sine(Angle):
         radians = radians % (2 * 3.141592653589793)
         if radians > 3.141592653589793:
             radians -= 2 * 3.141592653589793
-        return round((radians - (radians ** 3) / 6 + (radians ** 5) / 120 - (radians ** 7) / 5040),1)
+        return round((radians - (radians ** 3) / 6 + (radians ** 5) / 120 - (radians ** 7) / 5040),5)
     except Exception as e:
         err = str(e)
         print(f"Error! {err.title()}")
@@ -134,7 +141,7 @@ def cosine(Angle):
         radians = radians % (2 * 3.141592653589793)
         if radians > 3.141592653589793:
             radians -= 2 * 3.141592653589793
-        return round((1 - (radians ** 2) / 2 + (radians ** 4) / 24 - (radians ** 6) / 720), 1) 
+        return round((1 - (radians ** 2) / 2 + (radians ** 4) / 24 - (radians ** 6) / 720), 5) 
     except Exception as e:
         err = str(e)
         print(f"Error! {err.title()}")  
@@ -145,7 +152,7 @@ def tangent(Angle):
         cos_val = cosine(Angle)
         if cos_val == 0:
             return 'Not Defined'  
-        return round(sin_val / cos_val, 1)
+        return round(sin_val / cos_val, 5)
     except Exception as e:
         err = str(e)
         print(f"Error! {err.title()}")
@@ -155,7 +162,7 @@ def secant(Angle):
         cos_val = cosine(Angle)
         if cos_val == 0:
             return 'Not Defined'  
-        return round(1/cos_val)
+        return round((1/cos_val),5)
     except Exception as e:
         err = str(e)
         print(f"Error! {err.title()}")
@@ -165,7 +172,7 @@ def cosecant(Angle):
         sin_val = sine(Angle)
         if sin_val == 0:
             return 'Not Defined'  
-        return round(1/sin_val)
+        return round((1/sin_val),5)
     except Exception as e:
         err = str(e)
         print(f"Error! {err.title()}")
@@ -176,7 +183,7 @@ def cotangent(Angle):
         cos_val = cosine(Angle)
         if sin_val == 0:
             return 'Not Defined'  
-        return round( cos_val / sin_val, 1)
+        return round((cos_val / sin_val), 5)
     except Exception as e:
         err = str(e)
         print(f"Error! {err.title()}")  
@@ -209,6 +216,7 @@ def arithmetic_calculator(previous_result = None):
         'f=>d':fraction_to_decimal,
         'fib': fibonacci,
         'gcd':greatest_common_divisor,
+        'lcm':least_common_multiple,
         'sin':sine,
         'cos':cosine,
         'tan':tangent,
@@ -220,7 +228,7 @@ def arithmetic_calculator(previous_result = None):
 
         
     while True: #While Loop For Taking 'Operation_Input'
-        operator = input("Choose Operation ( * | / | % | ^ | + | - | ! | GCD | Fib | F=>D | D=>F | Sin | Cos | Tan | Sec | Cosec | Cot ) or 'Exit' to Quit: ")
+        operator = input("Choose Operation ( * | / | % | ^ | + | - | ! | GCD | LCM | Fib | F=>D | D=>F | Sin | Cos | Tan | Sec | Cosec | Cot ) or 'Exit' to Quit: ")
         if operator.lower() in ['exit','/e','e','quit','/q','q']:
             result = '@'
             break #Exit While Loop for 'Exit' Condition 
