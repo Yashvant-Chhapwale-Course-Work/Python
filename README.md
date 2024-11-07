@@ -864,7 +864,7 @@ glass2 = "juice"
         print(inspect.getmembers(Example, predicate=inspect.isfunction))
         # Output: [('method', <function Example.method at 0x000002E27FE094E0>)]
         ```
-      -  `inspect.getfile()`: This Function can be used for `Locating the File` where a function or class is defined, useful for Large Projects or Debugging.
+      - `inspect.getfile()`: This Function can be used for `Locating the File` where a function or class is defined, useful for Large Projects or Debugging.
         ```
         print(inspect.getfile(<function_name / element_name>)
         ```
