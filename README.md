@@ -12,7 +12,7 @@ A Record Of Assignments Under Python Course Work From Udemy.
 
 | TITLE                                                                                                                                                                                 | SECTION_LINK                                     |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| 1.  **Day 1 : : Introduction to Python with `print()` Function**                                                                                                                      | >> <a href="#day-1" style="text-decoration: none;">[`CHECK CONTENT`](#day-1)</a>|
+| 1.  **Day 1 : : Introduction to Python with `print()` Function**                                                                                                                      | [`CHECK CONTENT`](#day-1)|
 | 2.  **Day 2 : : An Overview On Data Types, Type Casting in Python with `int()`, `float()` & `str()` Function,<br> Using `input()` Function To Take User Inputs**                      | >> [`CHECK CONTENT`](#day-2)                     |     
 | 3.  **Day 3 : : `if-elif-else` Statements**                                                                                                                                           | >> [`CHECK CONTENT`](#day-3)                     |
 | 4.  **Day 4 : : `List` and `Loops` with Python**                                                                                                                                      | >> [`CHECK CONTENT`](#day-4)                     |
