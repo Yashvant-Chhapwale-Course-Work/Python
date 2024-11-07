@@ -808,7 +808,14 @@ glass2 = "juice"
     - In Python, A Docstring is generally the `First Line` in a Function, Method, Class, or Module directly following the `def` or `class` line.
       
   - **Python `inspect` Module:**
-    - 
+    - The `inspect` Module in Python offers a range of useful functions to examine `live objects` (such as Functions, Classes, and Modules) and access detailed information about their `Internal Structure`.
+    - To `import` the 'inspect' Module in Python, simply use the import Statement:
+      ```
+      import inspect
+      ```
+    - `Functions` In Inspect Module:
+      - `inspect.signature()` :It retrieves a Signature object, which provides information about the parameters a function takes.
+      - 
 
   - **Exception Handling in Python:**
     - `Exception Handling` in Python is a way to Manage Errors that occur during Program Execution, allowing the program to Continue Running or to Gracefully Handle Unexpected Situations. 
