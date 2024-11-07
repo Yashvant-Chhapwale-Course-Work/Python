@@ -790,6 +790,7 @@ glass2 = "juice"
            # Code to execute
            return result
        ```
+       
   - **Recursion:**
     - `Recursion` is a programming technique where a `Function Calls Itself` to solve a problem.
     - Example:
@@ -883,7 +884,6 @@ glass2 = "juice"
         test()
         ```
         
-
   - **Exception Handling in Python:**
     - `Exception Handling` in Python is a way to Manage Errors that occur during Program Execution, allowing the program to Continue Running or to Gracefully Handle Unexpected Situations. 
     - This is done using the `try`, `except`, `else`, and `finally` blocks:
