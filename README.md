@@ -13,7 +13,7 @@ A Record Of Assignments Under Python Course Work From Udemy.
 | TITLE                                                                                                                                                                                    | SECTION_LINK                               |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | 1.  **Day 1 : : Introduction to Python with `print()` Function**                                                                                                                         | >> [CHECK CONTENT](#day-1)                 |
-| 2.  **Day 2 : : An Overview On Data Types, Type Casting in Python with `int()`,<br> `float()` & `str()` Function, Using `input()` Function To Take User Inputs**                         | >> [CHECK CONTENT](#day-2)                 |     
+| 2.  **Day 2 : : An Overview On Data Types, Type Casting in Python with `int()`, `float()` & `str()` Function,<br> Using `input()` Function To Take User Inputs**                         | >> [CHECK CONTENT](#day-2)                 |     
 | 3.  **Day 3 : : `if-elif-else` Statements**                                                                                                                                              | >> [CHECK CONTENT](#day-3)                 |
 | 4.  **Day 4 : : `List` and `Loops` with Python**                                                                                                                                         | >> [CHECK CONTENT](#day-4)                 |
 | 5.  **Day 5 : : Fun with `range()` Function**                                                                                                                                            | >> [CHECK CONTENT](#day-5)                 |
@@ -21,7 +21,7 @@ A Record Of Assignments Under Python Course Work From Udemy.
 | 7.  **Day 7 : : `Python Modules`, `The Hangman` Game**                                                                                                                                   | >> [CHECK CONTENT](#day-7)                 |
 | 8.  **Day 8 : : `Parameterized Functions`, `Name Shadowing` Phenomenon, Implementing `Caesar Cipher`**                                                                                   | >> [CHECK CONTENT](#day-8)                 |
 | 9.  **Day 9 : : `Python Dictionaries`, A `Blind Auction System`**                                                                                                                        | >> [CHECK CONTENT](#day-9)                 |
-| 10. **Day 10 : : `Functions With Return Values`, `Recursion` Phenomenon,<br> `DocStrings`, `Inspect` Module, `Exception Handling` <br>in Python, Designing A `Mathematical Calculator`** | >> [CHECK CONTENT](#day-10)                |
+| 10. **Day 10 : : `Functions With Return Values`, `Recursion` Phenomenon, `DocStrings`, `Inspect` Module, `Exception Handling`in Python,<br> Designing A `Mathematical Calculator`**      | >> [CHECK CONTENT](#day-10)                |
 </div>
  
 ---
