@@ -218,7 +218,7 @@ glass2 = "juice"
    Syntax:
    <list_name> = [element_1, element_2, . . ., element_n]
    ```
- - In Python, the `random` mModule provides a Suite Of Functions to generate Random Numbers and perform Random Operations.
+ - In Python, the `random` Module provides a Suite Of Functions to generate Random Numbers and perform Random Operations.
    - Before using the Functions in the `random` Module, you need to `import` it:
      ```
      import random  #The 'import' statements must always be declared at the start of a file before any code block.
